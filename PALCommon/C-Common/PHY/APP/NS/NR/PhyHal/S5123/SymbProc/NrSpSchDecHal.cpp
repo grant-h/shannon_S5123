@@ -1,0 +1,10 @@
+Line 139: [NR IPC](to LTE)SCH DEC , NrSpCcActive(%d) NrSpScs(%d) NrSpoccuiedRB(%d), SCS_ORG(%d), prbLength(%d) systemBw(%d)
+Line 270: [LDPC][CalcMaxDataRateCC] NrActFlag: (0x%X), maxTBS(%d), NrMaxDataRateKbps: CC7(%d), CC6(%d), CC5(%d), CC4(%d), CC3(%d), CC2(%d), CC1(%d), CC0(%d)
+Line 282: [LDPC][CalcMaxDataRateCcTputRatio] NrCC_TPUT_RATIO_x1000: CC7/CC6(4/4)(%08d), CC5/CC4(4/4)(%08d), CC3/CC2(4/4)(%08d), CC1/CC0(4/4)(%08d), effective_tot_tput_kbps(%d), LteActFlag(%d), LteMaxDataRateKbps(%d), LteCC_TPUT_RATIO_x1000(%d)
+Line 311: [NR IPC] (SendMsg)from(CalcMaxDataRateCcTputRatio) PHY_PHY_UPDATE_CC_TPUT_RATIO_IND, BM_SrcCc(0x%X), BM_DstCc(0x%X)
+Line 383: [LDPC][CalcCcTputRatio] NrActFlag(0x%x), NrCC_TPUT_RATIO_x1000: CC7(%d), CC6(%d), CC5(%d), CC4(%d), CC3(%d), CC2(%d), CC1(%d), CC0(%d), LteCC_TPUT_RATIO_x1000(%d)
+Line 407: [LDPC][CalcCcTputRatio] givenClock(%d), m_CcIdx(%d), effective_ldpc_decoder_usage_ratio_x10000(%d), NrCC_TPUT_RATIO_x1000(%d), subcarrierSpacing_dl(%d)
+Line 484: [LDPC][CalcMaxTBS] maxTBS(%d), maxCodeBlockNum(%d), maxlayer(%d), maxPRBacrossBWPs(%d), Qm_LBRM(%d)
+Line 678: [LDPC] CW CRC Nack(%d), but all CB CRC Ack(%d). Clear AckCbNum
+Line 798: [LDPC][CalcLdpcIterNum] CW(%d), iterNum(%d), maxIterClock(%d), givenClock(%d), ldpcEstProcTime(%d), tbWTbCrcSize(%d), tot_cbnum/AckCbNum/NackCbNum(3/3/3)(%d), crIdx/oneIterClock/Ptr_LDPC_LastRowWGT/additionalProcClock(2/3/2/2)(%d), ldpcBaseGraph/ldpcNbDec1/ldpcKb/newTransFlag(1/3/2/1)(%d)
+Line 1444: m_rIntra.llrReadFlag(0x%x), tmpllrReadFlag(0x%x)

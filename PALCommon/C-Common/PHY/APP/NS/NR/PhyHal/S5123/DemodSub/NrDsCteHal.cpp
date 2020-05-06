@@ -1,0 +1,12 @@
+Line 218: [NR][CTE trs][SCTE]Data-Herz_Iircnt[%d] TRS03inst/fix[%6d],trs03scorr[%d] TRS00-33power[%d][%d]-03powfixed[%d], TRS Inst/IIR/Out[%d] Adjusted TRS Inst/IIR/Out[%d] sinr trsavg/trs0[%6d] agcchangerx0/rx1[%2d])
+Line 293: [NR][CTE][SCTE][SSB]dmover not trs log- Cfg_Type %d, Cfg_Done[s %d][t %d][afcnt : S %d  T %d], LATEST SCTE ssb %d , TRS calnum %d ,[CC,ssbid,valid,trs 0x%08x], Trs hard reset %d  )
+Line 577: [NR][CTE] CTE dmover trs log :softreset %d, hard reset %d , tp00 %d ,tp33 %d ,  tp03 %d , calcnt %d
+Line 725: [NR][CTE][CC%d] SSB SCTE Inst. Herz : %d , ssb d0d3 scorr[%d]- power[%d] sinssbravg[%d] )
+Line 865: [NR][CTE] SCTE TRS03 inst CorrValToDS_SCTE overflow SCTE_NC_QIndex_Inst: %d  )
+Line 888: [NR][CTE] SCTE TRS03 inst CorrValToDS overflow SCTE_NC_QIndex_Inst: %d  )
+Line 916: [NR][CTE] SCTE TRS03A inst CorrValToDS_SCTE overflow SCTE_NC_QIndex_Inst: %d  )
+Line 940: [NR][CTE] SCTE TRS03A inst CorrValToDS overflow SCTE_NC_QIndex_Inst: %d  )
+Line 1827: [NR][CTE] TRS IIR inst CorrValToDS_SCTE overflow SCTE_NC_QIndex_IIR: %d  )
+Line 1852: [NR][CTE] TRS IIR inst CorrValToDS overflow SCTE_NC_QIndex_IIR: %d  )
+Line 1879: [NR][CTE] TRS IIR inst CorrValToDS_SCTE overflow SCTE_NC_QIndex_IIR: %d  )
+Line 1904: [NR][CTE] TRS IIR inst CorrValToDS overflow SCTE_NC_QIndex_IIR: %d  )

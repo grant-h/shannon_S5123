@@ -1,0 +1,18 @@
+Line 94: (f) Skip false alram candik (%d)
+Line 109: [Operate]coresetIdx/candik/dci_fmt_idx/start_symbol_idx(2/2/2/2)(%d),dci_rnti_idx/startcce/AGL(2/2/1)(%d),dci_candi_idx/dci_srch_spc(2/1)(%d), monitoring_pdcch_status(%d),obuf0(0x%x),obuf1(0x%x),obuf2(0x%x),obuf3(0x%x)
+Line 130: [F] dci_fmt_idx(%d) and Identifier(%d) dci_srch_spc(%d) are mistmatched
+Line 159: [Operate] wrong DCI detected! candik(%d),dci_fmt_idx(%d),dci_rnti_idx(%d),obuf0(0x%x),obuf1(0x%x),obuf2(0x%x),obuf3(0x%x)
+Line 164: [Operate] wrong DCI detected! candik(%d),dci_fmt_idx(%d),dci_rnti_idx(%d),obuf0(0x%x),obuf1(0x%x),obuf2(0x%x),obuf3(0x%x)
+Line 205: (f) [ParseFormat0_0]coresetId(%d), UE SS is not possible to detect from NR_DCI_FORMAT_IDX3 !!
+Line 300: [ParseFormat0_0]FDRA(0x%x),TDRA/FreqHF(2/1)(%d),mcs1/ndi1/rv1/harqId(2/1/1/2)(%d),TPC/ULSUL_Indi(1/1)(%d),CoresetId/RntiId(1/2)(%d),SS(%d)
+Line 595: [CCH_ParseFormat0_1]FDRA(0x%x),BWPIndi/TDRA/vrb2prb/freqhop(1/2/1/1)(%d),mcs1/ndi1/rv1/harqId(2/1/1/2)(%d),DLassignIdx1/2/TPC/SRSrsrc/CSI(1/1/1/1/2)(%d),PrecodInfo/antPorts/SRSrequest(2/2/1)(%d),cbg/PTRS/beta/Dmrs/indiULSCH(1/1/1/1/1)(%d)
+Line 684: [ParseFormat1_0][RA][f30]FDRA(0x%x),TDRA(%d),vrb2prb(%d), mcs1(%d), TBscaling(%d), CoresetId/RntiId(1/2)(%d), dci_fmt_idx(%d), coreset0RbSize/coresetStartRb(3/3)(%d)
+Line 714: [NOTICE] Invalid detected Coreset ID(%d)
+Line 795: [ParseFormat1_0][SI] FDRA(0x%x),TDRA(%d),vrb2prb(%d), mcs1(%d), rv1(%d), CoresetId/RntiId(1/2)(%d), dci_fmt_idx(%d), pdcchSearchSpace(%d), coreset0RbSize/coresetStartRb(3/3)(%d)
+Line 898: [ParseFormat1_0][P] SMI/SM(1/3)(%d), FDRA(0x%x),TDRA(%d),vrb2prb(%d), mcs1(%d),TBS(%d) CoresetId/RntiId(1/2)(%d), dci_fmt_idx(%d), coreset0RbSize/coresetStartRb(3/3)(%d)
+Line 996: [ParseFormat1_0][PDCCH_RACH] FDRA(0x%x), RAPI/ULI/SSI/PRAMI/CAI(2/1/2/2/1)(%d)
+Line 1095: [ParseFormat1_0] FDRA(0x%x),TDRA/vrb2prb(%d),mcs1/ndi1/rv1/harqId(2/1/1/2)(%d) DAI/TPC/PUCCHRI/HARQFBTI(1/1/1/1)(%d), CoresetId/RntiId/firstCCEIdx/numCCE(1/2/3/2)(%d), MaxMoi(%d), monitoringOccasionIdx(%d), SS(%d), coreset0RbSize/coresetStartRb(3/3)(%d)
+Line 1473: [ParseFormat1_1]FDRA(0x%x),BWPInd/TDRA/vrb2prb/prbBundSize(1/2/1/1)(%d),mcs1/ndi1/rv1/mcs2/ndi2/rv2(2/1/1/2/1/1)(%d), rateMatch/zpCsiRsTrig/DLAIdx/harqid(1/2/2/2)(%d), TPC/PucchResInd/HarqFbTiming/antPorts(1/1/1/2)(%d),formats/carrierInd/transCfgInd/SRSreq/DmrsSeq(1/1/1/1/1)(%d),size cbgTransInfo/cbgFlushoutInfo(1/1)(%d), MaxMoi:%d, monitoringOccasionIdx:%d, NrCaState(%d)
+Line 1907: (F)Error in CCH_BwpSwitchingInd: DciFmt(%d)
+Line 1918: [NR IPC] PHY_PHY_BWP_SWITCHING_CTRL_IND, Dst(%d)/Src(%d)/curBwpIdx(%d)/BwpInd(%d)/numCongifured(%d)/DciFmt(%d)
+Line 1960: [NR_IPC]L2_PHY_DCI_INFO_IND : ShortMsg(0x%x), currentSfn(%d)

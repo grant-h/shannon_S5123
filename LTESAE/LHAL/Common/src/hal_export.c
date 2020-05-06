@@ -1,0 +1,7 @@
+Line 172: [EXP] DRX Working.. wait(%d)
+Line 322: [EXP] SetTestSimStatus (%d)
+Line 592: [EXP] gL1DsdsHoldL2 (%d -> %d)
+Line 792: [EXP] HALEXP_UpdateRxModeTime(%d): Acc(%d) Cur(%d)
+Line 808: [EXP] HALEXP_UpdateRxModeTime(%d): Acc(%d) Cur(%d, %d, %d) (TdpState:%d RAT:%d) 
+Line 833: [EXP] HALEXP_GetAndClearRxModeTime (%d)(TdpState:%d RAT:%d)
+Line 860: [EXP] HALEXP_GetAndClearTxModeTime ( %d  %d  %d  %d  %d )

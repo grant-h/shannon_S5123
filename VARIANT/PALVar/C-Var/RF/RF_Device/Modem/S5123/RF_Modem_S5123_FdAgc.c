@@ -1,0 +1,8 @@
+Line 234: [FDAGC][CL DELAY] FD-AGC Boundary Low(0x%X) Mid(0x%X) High(0x%X)
+Line 288: [FDAGC][CL DELAY] FDAGCNRPATH0CMNCFG(0x%X) FDAGCNRPATH0CFG(0x%X) FDAGCNRPATH0SYMPWRCFG0(0x%X)
+Line 293: [FDAGC][CL DELAY] FdAgcNrPath0SyncCfg (0x%X), FdAgcNrPath0TrsCfg00 (0x%X), FdAgcNrPath0PbCfg (0x%X)
+Line 314: [FDAGC][CL DELAY] bnd_l(0x%X) bnd_m(0x%X) bnd_h(0x%X)
+Line 322: [FDAGC][CL DELAY] %s error: FDAGCNRPATH0CMNCFG(0x%X) FDAGCNRPATH0CFG(0x%X) FDAGCNRPATH0SYMPWRCFG0(0x%X)
+Line 354: [FDAGC][CL DELAY] %s error: FDAGCNRPATH0CMNCFG(0x%X) FDAGCNRPATH0CFG(0x%X) FDAGCNRPATH0SYMPWRCFG0(0x%X)
+Line 358: [FDAGC][CL DELAY] pwr_l(0x%d) pwr_u(0x%d) ch_pwr(0x%d) aclr_l(%4d) aclr_(%4d)
+Line 403: [FDAGC] Dump :: [%s] Addr[0x%08x], Data[0x%08x])

@@ -1,0 +1,4 @@
+Line 13: [NRUECAPA] DB SpecificInfo : AUSTELSTRA
+Line 13: [NRUECAPA] DB SpecificInfo : AUSTELSTRA
+Line 13: [NRUECAPA] DB SpecificInfo : AUSTELSTRA
+Line 13: [NRUECAPA] DB SpecificInfo : AUSTELSTRA

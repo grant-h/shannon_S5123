@@ -1,0 +1,12 @@
+Line 62: [TpHAL_tRxf_Rx_RF_HiSpeedy_Write] - FIFO NOT CLEARED!!! [SbfCnt=%4d][cnt=%d]
+Line 109: [TpHAL_tRxf_Rx_RF_HiSpeedy_Config] - [SbfCnt=%4d][sysTime_base=%4d][SpdTick0_base=%d][SpdTick1_base=%d]
+Line 153: [TpHAL_tRxf_Rx_RF_HiSpeedy_Config_data] - [SbfCnt=%4d][srcType=%d][S0_num=%d][S1_num=%d][S2_num=%d]
+Line 208: [TpHAL_tRxf_AgcRegSet] - [SbfCnt=%4d][agcMode=%d]
+Line 269: [RFCTRL][PRX] RegVal_Update [SbfCnt=%4d][slotIdx=%d][valueOut=%d][dBPower=%d][dc=%d][preSrrc=%d][postSrrc=%d]
+Line 277: [RFCTRL][PRX] RegVal_Update [SbfCnt=%4d][slotIdx=%d][analogGain=%d][digitalGain=%d][hs_valueOut=%d]
+Line 285: [RFCTRL][DRX] RegVal_Update [SbfCnt=%4d][slotIdx=%d][valueOut=%d][dBPower=%d][dc=%d][preSrrc=%d][postSrrc=%d]
+Line 293: [RFCTRL][DRX] RegVal_Update [SbfCnt=%4d][slotIdx=%d][analogGain=%d][digitalGain=%d][hs_valueOut=%d]
+Line 359: [RFCTRL] SPI FIFO not Cleared status_flag:%d
+Line 365: [TpHAL_tRxf_Write_SWSpi] - [SbfCnt=%4d][spi_word=0x%x]
+Line 566: [RFCTRL] SetRfUpdateMode(%d): activeRat[%08X],updateMode[%08X],genMask[%08X],LatchCmdAddr[%08X],LatchCmdData[%08X]
+Line 603: FracNPLL Ctrl : [SbfCnt=%4d] [rxf_mixerReg=0x%x] [mpll_valueReg=0x%x] [SEL_DSM_UPDT_SRC=0x%x] [SEL_MCW_SYNC_SRC=0x%x] [PLL_CON8_MPLL=0x%x]

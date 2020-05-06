@@ -1,0 +1,992 @@
+Line 416: uphy_CUphyDsl1rcMessageInterface_resetTransceiverRfUseEntry: default case (transceiverId:%d)
+Line 532: DSDS: uphy_CUphyDsl1rcMessageInterface_releaseRf: token to delay pause_done by 2 ms
+Line 532: DSDS: uphy_CUphyDsl1rcMessageInterface_releaseRf: token to delay pause_done by 2 ms
+Line 563: Aborting ongoing RF synthesis for processing Release in RF Settling state
+Line 563: Aborting ongoing RF synthesis for processing Release in RF Settling state
+Line 592: uphy_CUphyDsl1rcMessageInterface_dbgPrint: rfState: %d
+Line 592: uphy_CUphyDsl1rcMessageInterface_dbgPrint: rfState: %d
+Line 652: Posting Event to UL2DL task  for processing pending transaction. 
+Line 652: Posting Event to UL2DL task  for processing pending transaction. 
+Line 739: uphy_CUphyDsl1rcMessageInterface_SetIsRfInitDone: isDsl1rcRfInitDone = %d
+Line 739: uphy_CUphyDsl1rcMessageInterface_SetIsRfInitDone: isDsl1rcRfInitDone = %d
+Line 757: uphy_CUphyDsl1rcMessageInterface_RfOnCallback
+Line 757: uphy_CUphyDsl1rcMessageInterface_RfOnCallback
+Line 767: EHalRfOnCmd exec() failed errCode %d addErrCode %d
+Line 767: EHalRfOnCmd exec() failed errCode %d addErrCode %d
+Line 802: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: ActiveStack Changed
+Line 802: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: ActiveStack Changed
+Line 822: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: launched at RSN=%d, (sfn, slot)=(%d, %d) measureongoing %d
+Line 822: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: launched at RSN=%d, (sfn, slot)=(%d, %d) measureongoing %d
+Line 828: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RF configuration Initiated as rfReconfig was not done after wakeup
+Line 828: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RF configuration Initiated as rfReconfig was not done after wakeup
+Line 835: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RF configuration Initiated!
+Line 835: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RF configuration Initiated!
+Line 844: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: IratMuxConfigCmd failed. errCode=%d, addErrCode=%d
+Line 844: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: IratMuxConfigCmd failed. errCode=%d, addErrCode=%d
+Line 865: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: AfcEnableCmd failed. errCode=%d, addErrCode=%d
+Line 865: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: AfcEnableCmd failed. errCode=%d, addErrCode=%d
+Line 890: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: BPLMN is configured BCH BPLMN uarfcn is %d
+Line 890: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: BPLMN is configured BCH BPLMN uarfcn is %d
+Line 895: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: UE did not camp to any frequency
+Line 895: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: UE did not camp to any frequency
+Line 907: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: SecUarfcn is not set yet
+Line 907: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: SecUarfcn is not set yet
+Line 917: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: uarfcn: %d, SecUarfcn: %d 
+Line 917: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: uarfcn: %d, SecUarfcn: %d 
+Line 942: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RF Rx ON command exec failure Error %d, Additional Error %d
+Line 942: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RF Rx ON command exec failure Error %d, Additional Error %d
+Line 948: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RfRxOn
+Line 948: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RfRxOn
+Line 969: RxUarfcn_Check: uarfcnCmd Status Not Idle From Fun = %s
+Line 969: RxUarfcn_Check: uarfcnCmd Status Not Idle From Fun = %s
+Line 975: RxUarfcn_Check: uarfcnCmdhandler Status Not Idle From Fun = %s , possibly RF SYNTH HISR didnt arrive yet for previous rfrxuarfcn command
+Line 975: RxUarfcn_Check: uarfcnCmdhandler Status Not Idle From Fun = %s , possibly RF SYNTH HISR didnt arrive yet for previous rfrxuarfcn command
+Line 980: RxUarfcn_Check: uarfcnCmdhandler Status Idle From Fun = %s
+Line 980: RxUarfcn_Check: uarfcnCmdhandler Status Idle From Fun = %s
+Line 987: sendResponseToUphyToken cancelled in uphy_CUphyDsl1rcMessageInterface_reconfigureRf
+Line 987: sendResponseToUphyToken cancelled in uphy_CUphyDsl1rcMessageInterface_reconfigureRf
+Line 1009: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RF UARFCN Error %d, Additional Error %d
+Line 1009: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RF UARFCN Error %d, Additional Error %d
+Line 1021: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RF configuration Not Needed!
+Line 1021: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RF configuration Not Needed!
+Line 1036: [TX-ON]Resume - uphy_CUphyDsl1rcMessageInterface_reconfigureRf, isDsReconfig=%d
+Line 1044: [TX-ON]Skipped - uphy_CUphyDsl1rcMessageInterface_reconfigureRf
+Line 1044: [TX-ON]Skipped - uphy_CUphyDsl1rcMessageInterface_reconfigureRf
+Line 1053: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: Modem Init Initiated!
+Line 1053: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: Modem Init Initiated!
+Line 1065: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RF Init Initiated!
+Line 1065: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RF Init Initiated!
+Line 1093: [IRAT] IratMuxConfigCmd failed. errCode=%d, addErrCode=%d
+Line 1093: [IRAT] IratMuxConfigCmd failed. errCode=%d, addErrCode=%d
+Line 1127: uphy_CUphyUrrcMessageInterface_RfOn - uhal_Cmd_exec
+Line 1127: uphy_CUphyUrrcMessageInterface_RfOn - uhal_Cmd_exec
+Line 1137: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: Start LMAC hsdpa parser 
+Line 1137: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: Start LMAC hsdpa parser 
+Line 1154: uphy_CUphyDsl1rcMessageInterface_RfConfigDoneCallback
+Line 1154: uphy_CUphyDsl1rcMessageInterface_RfConfigDoneCallback
+Line 1198: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Cancelling rfreqRetry token 
+Line 1198: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Cancelling rfreqRetry token 
+Line 1214: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: default case (rfState:%d)
+Line 1223: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp:  ntransceiverRfUseTableIndex %d : %d 
+Line 1223: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp:  ntransceiverRfUseTableIndex %d : %d 
+Line 1230: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: sending EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp
+Line 1230: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: sending EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp
+Line 1242: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 1242: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 1251: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 1251: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 1258: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1258: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1263: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1263: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1268: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1268: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1276: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1276: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1284: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: sending EUphyBchResourcesControllerMsgId_RfUseRsp
+Line 1284: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: sending EUphyBchResourcesControllerMsgId_RfUseRsp
+Line 1296: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyBchResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 1296: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyBchResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 1305: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyBchResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 1305: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyBchResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 1312: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1312: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1317: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1317: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1322: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyBchResourcesControllerMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1322: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyBchResourcesControllerMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1330: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyBchResourcesControllerMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1330: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyBchResourcesControllerMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1338: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyRachResourcesControllerMsgId_RfUseRsp
+Line 1338: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyRachResourcesControllerMsgId_RfUseRsp
+Line 1350: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyRachResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 1350: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyRachResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 1359: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyRachResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 1359: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyRachResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 1366: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1366: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1371: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1371: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1376: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyRachResourcesControllerMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1376: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyRachResourcesControllerMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1384: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyRachResourcesControllerMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1384: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyRachResourcesControllerMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1392: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyFachResourcesControllerMsgId_RfUseRsp
+Line 1392: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyFachResourcesControllerMsgId_RfUseRsp
+Line 1404: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyFachResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 1404: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyFachResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 1413: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyFachResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 1413: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyFachResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 1420: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1420: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1425: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1425: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1430: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyFachResourcesControllerMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1430: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyFachResourcesControllerMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1438: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyFachResourcesControllerMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1438: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyFachResourcesControllerMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1458: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphySearcherMsgId_RfUseRsp RF Access Granted
+Line 1458: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphySearcherMsgId_RfUseRsp RF Access Granted
+Line 1467: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphySearcherMsgId_RfUseRsp RF Access Rejected
+Line 1467: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphySearcherMsgId_RfUseRsp RF Access Rejected
+Line 1474: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1474: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1479: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1479: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1484: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphySearcherMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1484: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphySearcherMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1492: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphySearcherMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1492: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphySearcherMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1511: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EDedicatedModeControllerMsgId_RfUseRsp RF Access Granted
+Line 1511: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EDedicatedModeControllerMsgId_RfUseRsp RF Access Granted
+Line 1520: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EDedicatedModeControllerMsgId_RfUseRsp RF Access Rejected
+Line 1520: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EDedicatedModeControllerMsgId_RfUseRsp RF Access Rejected
+Line 1527: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1527: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1532: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1532: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1537: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EDedicatedModeControllerMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1537: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EDedicatedModeControllerMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1545: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EDedicatedModeControllerMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1545: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EDedicatedModeControllerMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1564: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyHsdschResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 1564: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyHsdschResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 1573: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyHsdschResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 1573: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyHsdschResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 1580: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1580: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1585: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1585: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1590: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyHsdschResourcesControllerMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1590: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyHsdschResourcesControllerMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1598: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyHsdschResourcesControllerMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1598: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyHsdschResourcesControllerMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1617: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyMeasurementMessageType_RfUSeRsp RF Access Granted
+Line 1617: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyMeasurementMessageType_RfUSeRsp RF Access Granted
+Line 1626: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyMeasurementMessageType_RfUSeRsp RF Access Rejected
+Line 1626: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyMeasurementMessageType_RfUSeRsp RF Access Rejected
+Line 1633: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1633: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1638: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1638: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1643: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyMeasurementMessageType_RfUSeRsp RF Access Rejected @ state %d
+Line 1643: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyMeasurementMessageType_RfUSeRsp RF Access Rejected @ state %d
+Line 1651: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyMeasurementMessageType_RfUSeRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1651: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyMeasurementMessageType_RfUSeRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1670: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyUrrcMessageTransceiverMsgId_RfUseRsp RF Access Granted
+Line 1670: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyUrrcMessageTransceiverMsgId_RfUseRsp RF Access Granted
+Line 1679: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyUrrcMessageTransceiverMsgId_RfUseRsp RF Access Rejected
+Line 1679: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyUrrcMessageTransceiverMsgId_RfUseRsp RF Access Rejected
+Line 1686: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1686: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Access
+Line 1691: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1691: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Wait for RF Settle
+Line 1696: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyUrrcMessageTransceiverMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1696: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyUrrcMessageTransceiverMsgId_RfUseRsp RF Access Rejected @ state %d
+Line 1704: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyUrrcMessageTransceiverMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1704: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: EUphyUrrcMessageTransceiverMsgId_RfUseRsp RF Access Rejected due to OtherStackPausedWithSignaling
+Line 1718: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Msg sending failed
+Line 1718: uphy_CUphyDsl1rcMessageInterface_sendRfUseRsp: Msg sending failed
+Line 1730: sendRfUseRsp: Grant, ActiveRat = %d, RFRatMode = %d
+Line 1730: sendRfUseRsp: Grant, ActiveRat = %d, RFRatMode = %d
+Line 1770: uphy_CUphyDsl1rcMessageInterface_sendRfUseResumeReq:  ntransceiverRfUseTableIndex %d : %d 
+Line 1770: uphy_CUphyDsl1rcMessageInterface_sendRfUseResumeReq:  ntransceiverRfUseTableIndex %d : %d 
+Line 1777: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyPchAndDrxResourcesControllerMsgId_RfUseResumeReq
+Line 1777: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyPchAndDrxResourcesControllerMsgId_RfUseResumeReq
+Line 1788: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyBchResourcesControllerMsgId_RfUseResumeReq
+Line 1788: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyBchResourcesControllerMsgId_RfUseResumeReq
+Line 1799: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyRachResourcesControllerMsgId_RfUseResumeReq
+Line 1799: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyRachResourcesControllerMsgId_RfUseResumeReq
+Line 1810: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyFachResourcesControllerMsgId_RfUseResumeReq
+Line 1810: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyFachResourcesControllerMsgId_RfUseResumeReq
+Line 1822: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphySearcherMsgId_RfUseResumeReq
+Line 1822: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphySearcherMsgId_RfUseResumeReq
+Line 1834: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EDedicatedModeControllerMsgId_RfUseResumeReq
+Line 1834: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EDedicatedModeControllerMsgId_RfUseResumeReq
+Line 1846: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EDedicatedModeControllerMsgId_RfUseResumeReq
+Line 1846: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EDedicatedModeControllerMsgId_RfUseResumeReq
+Line 1857: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyUrrcMessageTransceiverMsgId_RfUseResumeReq
+Line 1857: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyUrrcMessageTransceiverMsgId_RfUseResumeReq
+Line 1868: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyMeasurementMessageType_RfUseResumeReq
+Line 1868: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyMeasurementMessageType_RfUseResumeReq
+Line 1893: uphy_CUphyDsl1rcMessageInterface_sendRfUseResumeReq: Msg sending failed
+Line 1893: uphy_CUphyDsl1rcMessageInterface_sendRfUseResumeReq: Msg sending failed
+Line 1903: sendRfUseResumeReq: ActiveRat = %d, RFRatMode = %d
+Line 1903: sendRfUseResumeReq: ActiveRat = %d, RFRatMode = %d
+Line 1934: uphy_CUphyDsl1rcMessageInterface_sendRfUsePauseReq:  ntransceiverRfUseTableIndex %d : %d 
+Line 1934: uphy_CUphyDsl1rcMessageInterface_sendRfUsePauseReq:  ntransceiverRfUseTableIndex %d : %d 
+Line 1939: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyPchAndDrxResourcesControllerMsgId_RfUsePauseReq
+Line 1939: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyPchAndDrxResourcesControllerMsgId_RfUsePauseReq
+Line 1950: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyBchResourcesControllerMsgId_RfUsePauseReq
+Line 1950: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyBchResourcesControllerMsgId_RfUsePauseReq
+Line 1961: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyRachResourcesControllerMsgId_RfUsePauseReq
+Line 1961: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyRachResourcesControllerMsgId_RfUsePauseReq
+Line 1972: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyFachResourcesControllerMsgId_RfUsePauseReq
+Line 1972: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: sending EUphyFachResourcesControllerMsgId_RfUsePauseReq
+Line 1983: uphy_CUphyDsl1rcMessageInterface_sendRfUsePauseReq: sending EUphySearcherMsgId_RfUsePauseReq
+Line 1983: uphy_CUphyDsl1rcMessageInterface_sendRfUsePauseReq: sending EUphySearcherMsgId_RfUsePauseReq
+Line 1997: uphy_CUphyDsl1rcMessageInterface_sendRfUsePauseReq: sending EDedicatedModeControllerMsgId_RfUsePauseReq
+Line 1997: uphy_CUphyDsl1rcMessageInterface_sendRfUsePauseReq: sending EDedicatedModeControllerMsgId_RfUsePauseReq
+Line 2012: uphy_CUphyDsl1rcMessageInterface_sendRfUsePauseReq: sending EHsdschResourcesControllerMsgId_RfUsePauseReq
+Line 2012: uphy_CUphyDsl1rcMessageInterface_sendRfUsePauseReq: sending EHsdschResourcesControllerMsgId_RfUsePauseReq
+Line 2024: uphy_CUphyDsl1rcMessageInterface_sendRfUsePauseReq: sending EUphyMeasurementMessageType_RfUsePauseReq
+Line 2024: uphy_CUphyDsl1rcMessageInterface_sendRfUsePauseReq: sending EUphyMeasurementMessageType_RfUsePauseReq
+Line 2036: uphy_CUphyDsl1rcMessageInterface_sendRfUsePauseReq: sending EUphyUrrcMessageTransceiverMsgId_RfUsePauseReq
+Line 2036: uphy_CUphyDsl1rcMessageInterface_sendRfUsePauseReq: sending EUphyUrrcMessageTransceiverMsgId_RfUsePauseReq
+Line 2057: uphy_CUphyDsl1rcMessageInterface_sendRfUsePauseReq: Msg sending failed
+Line 2057: uphy_CUphyDsl1rcMessageInterface_sendRfUsePauseReq: Msg sending failed
+Line 2097: message creation failed in uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStopUpdating
+Line 2097: message creation failed in uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStopUpdating
+Line 2112: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStopUpdating:RequestMultipathMgmtStopUpdating: msg send failed
+Line 2112: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStopUpdating:RequestMultipathMgmtStopUpdating: msg send failed
+Line 2118: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStopUpdating RequestMultipathMgmtStopUpdating:msg send succeeded.
+Line 2118: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStopUpdating RequestMultipathMgmtStopUpdating:msg send succeeded.
+Line 2143: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStartUpdating: message creation failed
+Line 2143: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStartUpdating: message creation failed
+Line 2158: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStartUpdating: RequestMultipathMgmtStartUpdating: msg send failed
+Line 2158: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStartUpdating: RequestMultipathMgmtStartUpdating: msg send failed
+Line 2163: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStartUpdating RequestMultipathMgmtStopUpdating:msg send succeeded.
+Line 2163: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStartUpdating RequestMultipathMgmtStopUpdating:msg send succeeded.
+Line 2175: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStartSingleUpdate: message creation failed in uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStartSingleUpdate
+Line 2175: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStartSingleUpdate: message creation failed in uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStartSingleUpdate
+Line 2188: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStartSingleUpdate: EUphyMultipathMgmtMsgId_StartSingleUpdate: msg send failed
+Line 2188: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStartSingleUpdate: EUphyMultipathMgmtMsgId_StartSingleUpdate: msg send failed
+Line 2193: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStartSingleUpdate EUphyMultipathMgmtMsgId_StartSingleUpdate:msg send succeeded.
+Line 2193: uphy_CUphyDsl1rcMessageInterface_RequestMultipathMgmtStartSingleUpdate EUphyMultipathMgmtMsgId_StartSingleUpdate:msg send succeeded.
+Line 2218: message creation failed in uphy_CUphyDsl1rcMessageInterface_sendMeasurmentSuspendRequest
+Line 2218: message creation failed in uphy_CUphyDsl1rcMessageInterface_sendMeasurmentSuspendRequest
+Line 2231: uphy_CUphyDsl1rcMessageInterface_sendMeasurmentSuspendRequest:EUphyMeasurementMessageType_SuspendAl: msg send failed
+Line 2231: uphy_CUphyDsl1rcMessageInterface_sendMeasurmentSuspendRequest:EUphyMeasurementMessageType_SuspendAl: msg send failed
+Line 2236: uphy_CUphyDsl1rcMessageInterface_sendMeasurmentSuspendRequest EUphyMeasurementMessageType_SuspendAl:msg send succeeded.
+Line 2236: uphy_CUphyDsl1rcMessageInterface_sendMeasurmentSuspendRequest EUphyMeasurementMessageType_SuspendAl:msg send succeeded.
+Line 2262: message creation failed in uphy_CUphyDsl1rcMessageInterface_sendMeasurmentResumeRequest
+Line 2262: message creation failed in uphy_CUphyDsl1rcMessageInterface_sendMeasurmentResumeRequest
+Line 2275: uphy_CUphyDsl1rcMessageInterface_sendMeasurmentResumeRequest:EUphyMeasurementMessageType_ResumeAll: msg send failed
+Line 2275: uphy_CUphyDsl1rcMessageInterface_sendMeasurmentResumeRequest:EUphyMeasurementMessageType_ResumeAll: msg send failed
+Line 2280: uphy_CUphyDsl1rcMessageInterface_sendMeasurmentResumeRequest EUphyMeasurementMessageType_ResumeAll:msg send succeeded.
+Line 2280: uphy_CUphyDsl1rcMessageInterface_sendMeasurmentResumeRequest EUphyMeasurementMessageType_ResumeAll:msg send succeeded.
+Line 2301: uphy_CUphyDsl1rcMessageInterface_isRfUsePaused: uphyDsl1rcMessageInterface_ptr == NULL
+Line 2301: uphy_CUphyDsl1rcMessageInterface_isRfUsePaused: uphyDsl1rcMessageInterface_ptr == NULL
+Line 2305: uphy_CUphyDsl1rcMessageInterface_isRfUsePaused: isRfUsePaused : %d! internalPause %d 
+Line 2305: uphy_CUphyDsl1rcMessageInterface_isRfUsePaused: isRfUsePaused : %d! internalPause %d 
+Line 2328: uphy_CUphyDsl1rcMessageInterface_isRfPauseDelayed: uphyDsl1rcMessageInterface_ptr == NULL
+Line 2328: uphy_CUphyDsl1rcMessageInterface_isRfPauseDelayed: uphyDsl1rcMessageInterface_ptr == NULL
+Line 2343: uphy_CUphyDsl1rcMessageInterface_isRfPauseDelayed: isRfPauseDelayed : %d delayInMS = %d
+Line 2343: uphy_CUphyDsl1rcMessageInterface_isRfPauseDelayed: isRfPauseDelayed : %d delayInMS = %d
+Line 2366: uphy_CUphyDsl1rcMessageInterface_isRFInUse: RF is currently Used by TransceiverId: %d!
+Line 2366: uphy_CUphyDsl1rcMessageInterface_isRFInUse: RF is currently Used by TransceiverId: %d!
+Line 2386: uphy_CUphyDsl1rcMessageInterface_isRFInUsePaused: RF is currently Used(but Paused) by TransceiverId: %d!
+Line 2386: uphy_CUphyDsl1rcMessageInterface_isRFInUsePaused: RF is currently Used(but Paused) by TransceiverId: %d!
+Line 2406: uphy_CUphyDsl1rcMessageInterface_isRFInUse: RF is currently requested by TransceiverId: %d!
+Line 2406: uphy_CUphyDsl1rcMessageInterface_isRFInUse: RF is currently requested by TransceiverId: %d!
+Line 2426: uphy_CUphyDsl1rcMessageInterface_isRFInUse: TransceiverId: %d!is in RF Settling State
+Line 2426: uphy_CUphyDsl1rcMessageInterface_isRFInUse: TransceiverId: %d!is in RF Settling State
+Line 2483: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq:  ntransceiverRfUseTableIndex %d : %d 
+Line 2483: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq:  ntransceiverRfUseTableIndex %d : %d 
+Line 2488: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyPchAndDrxResourcesControllerMsgId_SearcherUsePauseReq
+Line 2488: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyPchAndDrxResourcesControllerMsgId_SearcherUsePauseReq
+Line 2499: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyBchResourcesControllerMsgId_SearcherUsePauseReq
+Line 2499: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyBchResourcesControllerMsgId_SearcherUsePauseReq
+Line 2510: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyRachResourcesControllerMsgId_SearcherUsePauseReq
+Line 2510: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyRachResourcesControllerMsgId_SearcherUsePauseReq
+Line 2521: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyFachResourcesControllerMsgId_SearcherUsePauseReq
+Line 2521: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyFachResourcesControllerMsgId_SearcherUsePauseReq
+Line 2532: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphySearcherMsgId_SearcherUsePauseReq
+Line 2532: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphySearcherMsgId_SearcherUsePauseReq
+Line 2545: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EDedicatedModeControllerMsgId_SearcherUsePauseReq
+Line 2545: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EDedicatedModeControllerMsgId_SearcherUsePauseReq
+Line 2557: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyHsdschResourcesControllerMsgId_SearcherUsePauseReq
+Line 2557: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyHsdschResourcesControllerMsgId_SearcherUsePauseReq
+Line 2569: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyMeasurementMessageType_SearcherUsePauseReq
+Line 2569: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyMeasurementMessageType_SearcherUsePauseReq
+Line 2581: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyUrrcMessageTransceiverMsgId_SearcherUsePauseReq
+Line 2581: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyUrrcMessageTransceiverMsgId_SearcherUsePauseReq
+Line 2593: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyMultipathMgmtMsgId_SearcherUsePauseReq
+Line 2593: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: sending EUphyMultipathMgmtMsgId_SearcherUsePauseReq
+Line 2613: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: Msg sending failed
+Line 2613: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseReq: Msg sending failed
+Line 2638: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq:  ntransceiverRfUseTableIndex %d : %d 
+Line 2638: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq:  ntransceiverRfUseTableIndex %d : %d 
+Line 2645: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyPchAndDrxResourcesControllerMsgId_SearcherUseResumeReq
+Line 2645: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyPchAndDrxResourcesControllerMsgId_SearcherUseResumeReq
+Line 2656: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyBchResourcesControllerMsgId_SearcherUseResumeReq
+Line 2656: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyBchResourcesControllerMsgId_SearcherUseResumeReq
+Line 2667: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyRachResourcesControllerMsgId_SearcherUseResumeReq
+Line 2667: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyRachResourcesControllerMsgId_SearcherUseResumeReq
+Line 2678: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyFachResourcesControllerMsgId_SearcherUseResumeReq
+Line 2678: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyFachResourcesControllerMsgId_SearcherUseResumeReq
+Line 2690: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphySearcherMsgId_SearcherUseResumeReq
+Line 2690: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphySearcherMsgId_SearcherUseResumeReq
+Line 2702: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EDedicatedModeControllerMsgId_SearcherUseResumeReq
+Line 2702: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EDedicatedModeControllerMsgId_SearcherUseResumeReq
+Line 2714: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyHsdschResourcesControllerMsgId_SearcherUseResumeReq
+Line 2714: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyHsdschResourcesControllerMsgId_SearcherUseResumeReq
+Line 2725: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyUrrcMessageTransceiverMsgId_SearcherUseResumeReq
+Line 2725: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyUrrcMessageTransceiverMsgId_SearcherUseResumeReq
+Line 2736: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyMeasurementMessageType_SearcherUseResumeReq
+Line 2736: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyMeasurementMessageType_SearcherUseResumeReq
+Line 2747: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyMultipathMgmtMsgId_SearcherUseResumeReq
+Line 2747: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: sending EUphyMultipathMgmtMsgId_SearcherUseResumeReq
+Line 2766: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: Msg sending failed
+Line 2766: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseResumeReq: Msg sending failed
+Line 2814: uphy_CUphyDsl1rcMessageInterface_isSearcherInUse: Searcher is currently Used by TransceiverId: %d!
+Line 2814: uphy_CUphyDsl1rcMessageInterface_isSearcherInUse: Searcher is currently Used by TransceiverId: %d!
+Line 2826: uphy_CUphyDsl1rcMessageInterface_isSearcherUsePaused: %d!
+Line 2826: uphy_CUphyDsl1rcMessageInterface_isSearcherUsePaused: %d!
+Line 2841: uphy_CUphyDsl1rcMessageInterface_isSearcherInUsePaused: Searcher is currently Used(but Paused) by TransceiverId: %d!
+Line 2841: uphy_CUphyDsl1rcMessageInterface_isSearcherInUsePaused: Searcher is currently Used(but Paused) by TransceiverId: %d!
+Line 2881: uphy_CUphyDsl1rcMessageInterface_isDrAvailable: isDRAvailable: %d!
+Line 2938: uphy_CUphyDsl1rcMessageInterface_getSIMInfo(stackId %d): %d
+Line 2938: uphy_CUphyDsl1rcMessageInterface_getSIMInfo(stackId %d): %d
+Line 2972: uphy_CUphyDsl1rcMessageInterface_isOther3GStackInDCH: Srl1rcUphyClientId(%d), retVal(%d)  
+Line 2972: uphy_CUphyDsl1rcMessageInterface_isOther3GStackInDCH: Srl1rcUphyClientId(%d), retVal(%d)  
+Line 3014: uphy_CUphyDsl1rcMessageInterface_RetryRfUseRequestSTF: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 3014: uphy_CUphyDsl1rcMessageInterface_RetryRfUseRequestSTF: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 3031: uphy_CUphyDsl1rcMessageInterface_RetryRfUseRequestSTF: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 3031: uphy_CUphyDsl1rcMessageInterface_RetryRfUseRequestSTF: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 3036: uphy_CUphyDsl1rcMessageInterface_RetryRfUseRequestSTF: Wait for RF Access
+Line 3036: uphy_CUphyDsl1rcMessageInterface_RetryRfUseRequestSTF: Wait for RF Access
+Line 3040: uphy_CUphyDsl1rcMessageInterface_RetryRfUseRequestSTF: update will be done after Reconfiguration!!
+Line 3040: uphy_CUphyDsl1rcMessageInterface_RetryRfUseRequestSTF: update will be done after Reconfiguration!!
+Line 3111: Update Not required as Request reason same as pHighestPriorityTransceiverRfUseEntry reason
+Line 3111: Update Not required as Request reason same as pHighestPriorityTransceiverRfUseEntry reason
+Line 3234: uphy_CUphyDsl1rcMessageInterface_IsRfUseReasonUpdateNeeded: isUpdateNeeded: %d rfUseReason: %d minResourceUseTime:%d
+Line 3234: uphy_CUphyDsl1rcMessageInterface_IsRfUseReasonUpdateNeeded: isUpdateNeeded: %d rfUseReason: %d minResourceUseTime:%d
+Line 3258: Update Not required as Request reason same as pHighestPriorityTransceiverSearcherUseEntry reason
+Line 3258: Update Not required as Request reason same as pHighestPriorityTransceiverSearcherUseEntry reason
+Line 3383: uphy_CUphyDsl1rcMessageInterface_IsSearcherUseReasonUpdateNeeded: isUpdateNeeded: %d searcherUseReason: %d minSearcherUseTime:%d
+Line 3383: uphy_CUphyDsl1rcMessageInterface_IsSearcherUseReasonUpdateNeeded: isUpdateNeeded: %d searcherUseReason: %d minSearcherUseTime:%d
+Line 3390: uphy_CUphyDsl1rcMessageInterface_resetDRDb
+Line 3390: uphy_CUphyDsl1rcMessageInterface_resetDRDb
+Line 3411: uphy_CUphyDsl1rcMessageInterface_sendUpdateDRDb: Failed to Update at SRL1RC
+Line 3411: uphy_CUphyDsl1rcMessageInterface_sendUpdateDRDb: Failed to Update at SRL1RC
+Line 3416: uphy_CUphyDsl1rcMessageInterface_sendUpdateDRDb: Not registered with SRL1RC
+Line 3416: uphy_CUphyDsl1rcMessageInterface_sendUpdateDRDb: Not registered with SRL1RC
+Line 3448: uphy_CUphyDsl1rcMessageInterface_forceClearDRDb: Failed to Update at SRL1RC
+Line 3448: uphy_CUphyDsl1rcMessageInterface_forceClearDRDb: Failed to Update at SRL1RC
+Line 3453: uphy_CUphyDsl1rcMessageInterface_forceClearDRDb: Not registered with SRL1RC
+Line 3453: uphy_CUphyDsl1rcMessageInterface_forceClearDRDb: Not registered with SRL1RC
+Line 3471: uphy_CUphyDsl1rcMessageInterface_sendIsDRImpossible: Failed to Update at SRL1RC
+Line 3471: uphy_CUphyDsl1rcMessageInterface_sendIsDRImpossible: Failed to Update at SRL1RC
+Line 3476: uphy_CUphyDsl1rcMessageInterface_sendIsDRImpossible: Not registered with SRL1RC
+Line 3476: uphy_CUphyDsl1rcMessageInterface_sendIsDRImpossible: Not registered with SRL1RC
+Line 3508: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRequest: CGI Mode is configured
+Line 3508: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRequest: CGI Mode is configured
+Line 3515: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRequest: Client is deregistered but trying to make a resource request to DSL1RC
+Line 3515: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRequest: Client is deregistered but trying to make a resource request to DSL1RC
+Line 3530: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRequest: CGI Mode is configured
+Line 3530: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRequest: CGI Mode is configured
+Line 3541: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRequest: update info cleared: searcherUseReason %d!!
+Line 3541: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRequest: update info cleared: searcherUseReason %d!!
+Line 3549: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRequest: New Searcher use cause is updated at Dsl1rc
+Line 3549: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRequest: New Searcher use cause is updated at Dsl1rc
+Line 3560: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRequest : Searcher Access Request is rejected
+Line 3560: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRequest : Searcher Access Request is rejected
+Line 3570: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRequest : Wait for Response
+Line 3570: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRequest : Wait for Response
+Line 3599: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp: default case (searcherState:%d)
+Line 3603: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp:  transceiverId(searcherState) : %d(%d)
+Line 3603: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp:  transceiverId(searcherState) : %d(%d)
+Line 3605: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp: sending SearcherUseRsp
+Line 3605: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp: sending SearcherUseRsp
+Line 3609: NULL UphyMessage
+Line 3609: NULL UphyMessage
+Line 3620: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp: EUphyPchAndDrxResourcesControllerMsgId_SearcherUseRsp Searcher Access Granted
+Line 3620: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp: EUphyPchAndDrxResourcesControllerMsgId_SearcherUseRsp Searcher Access Granted
+Line 3626: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp: EUphyPchAndDrxResourcesControllerMsgId_SearcherUseRsp Searcher Access Rejected
+Line 3626: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp: EUphyPchAndDrxResourcesControllerMsgId_SearcherUseRsp Searcher Access Rejected
+Line 3633: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp: Wait for Searcher Access
+Line 3633: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp: Wait for Searcher Access
+Line 3638: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp: EUphyMeasurementMessageType_SearcherUSeRsp Searcher Access Rejected @ state %d
+Line 3638: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp: EUphyMeasurementMessageType_SearcherUSeRsp Searcher Access Rejected @ state %d
+Line 3697: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp: Msg sending failed
+Line 3697: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRsp: Msg sending failed
+Line 3709: sendSearcherUseRsp: Grant, ActiveRat = %d, RFRatMode = %d
+Line 3709: sendSearcherUseRsp: Grant, ActiveRat = %d, RFRatMode = %d
+Line 3732: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseDone: Sending Searcher pause_done to SRL1RC
+Line 3732: uphy_CUphyDsl1rcMessageInterface_sendSearcherUsePauseDone: Sending Searcher pause_done to SRL1RC
+Line 3752: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRelease: Sending Searcher rel to SRL1RC isSearcherUsePaused %d
+Line 3752: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRelease: Sending Searcher rel to SRL1RC isSearcherUsePaused %d
+Line 3763: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRelease: CGI Mode is configured
+Line 3763: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRelease: CGI Mode is configured
+Line 3781: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRelease: update info cleared: searcherUseReason %d!!
+Line 3781: uphy_CUphyDsl1rcMessageInterface_sendSearcherUseRelease: update info cleared: searcherUseReason %d!!
+Line 3871: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest: CGI Mode is configured
+Line 3871: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest: CGI Mode is configured
+Line 3878: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest: Client is deregistered but trying to make a resource request to DSL1RC
+Line 3878: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest: Client is deregistered but trying to make a resource request to DSL1RC
+Line 3894: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest: CGI Mode is configured
+Line 3894: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest: CGI Mode is configured
+Line 3913: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest: update info cleared: rfUseReason %d!!
+Line 3913: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest: update info cleared: rfUseReason %d!!
+Line 3940: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest: New RF use cause is updated at Dsl1rc
+Line 3940: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest: New RF use cause is updated at Dsl1rc
+Line 3964: HW was not released, No Asip Download
+Line 3978: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest: RF configuration Initiated!
+Line 3978: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest: RF configuration Initiated!
+Line 3995: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest : RF Access Request is rejected
+Line 3995: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest : RF Access Request is rejected
+Line 4012: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest : RF Access Request is rejected
+Line 4012: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest : RF Access Request is rejected
+Line 4025: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest : Wait for Response
+Line 4025: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest : Wait for Response
+Line 4046: uphy_CUphyDsl1rcMessageInterface_triggerDCHInternalPauseIfNeeded: The Dsl1rc is updated with cause: %d
+Line 4046: uphy_CUphyDsl1rcMessageInterface_triggerDCHInternalPauseIfNeeded: The Dsl1rc is updated with cause: %d
+Line 4071: uphy_CUphyDsl1rcMessageInterface_triggerDCHInternalPauseIfNeeded : RF Access Request is rejected - Trigger DCH Internal Pause
+Line 4071: uphy_CUphyDsl1rcMessageInterface_triggerDCHInternalPauseIfNeeded : RF Access Request is rejected - Trigger DCH Internal Pause
+Line 4083: uphy_CUphyDsl1rcMessageInterface_triggerDCHInternalPauseIfNeeded : Error
+Line 4083: uphy_CUphyDsl1rcMessageInterface_triggerDCHInternalPauseIfNeeded : Error
+Line 4112: Cancel resetRfIntToken token
+Line 4112: Cancel resetRfIntToken token
+Line 4138: S0  RfbackProcessing: RF Rx Off command exec failure Error %d, Additional Error %d
+Line 4138: S0  RfbackProcessing: RF Rx Off command exec failure Error %d, Additional Error %d
+Line 4145: RX Off Command Executed for SUB SIM
+Line 4145: RX Off Command Executed for SUB SIM
+Line 4173: uphy_CUphyDsl1rcMessageInterface_sendRfUseRelease: isDsl1rcRfInitDone %d
+Line 4173: uphy_CUphyDsl1rcMessageInterface_sendRfUseRelease: isDsl1rcRfInitDone %d
+Line 4177: uphy_CUphyDslrcMessageInterface_sendRfUseRelease: Sending RF rel to Dslrc isRfUsePaused %d isRfUsePauseInProgress %d
+Line 4177: uphy_CUphyDslrcMessageInterface_sendRfUseRelease: Sending RF rel to Dslrc isRfUsePaused %d isRfUsePauseInProgress %d
+Line 4196: uphy_CUphyDsl1rcMessageInterface_sendRfUseRelease: cancel resume token 
+Line 4196: uphy_CUphyDsl1rcMessageInterface_sendRfUseRelease: cancel resume token 
+Line 4210: uphy_CUphyDsl1rcMessageInterface_sendRfUseRelease: CGI Mode is configured
+Line 4210: uphy_CUphyDsl1rcMessageInterface_sendRfUseRelease: CGI Mode is configured
+Line 4238: uphy_CUphyDsl1rcMessageInterface_sendRfUseRelease: update info cleared: rfUseReason %d!!
+Line 4238: uphy_CUphyDsl1rcMessageInterface_sendRfUseRelease: update info cleared: rfUseReason %d!!
+Line 4245: Cancel scheduleRfPause token
+Line 4245: Cancel scheduleRfPause token
+Line 4282: uphy_CUphyDslrcMessageInterface_process: Sending pause_done to Dslrc
+Line 4282: uphy_CUphyDslrcMessageInterface_process: Sending pause_done to Dslrc
+Line 4372: uphy_CUphyDsl1rcMessageInterface_updateEventEntry: transceiverId %d ntransceiverRfUseTableIndex %d 
+Line 4372: uphy_CUphyDsl1rcMessageInterface_updateEventEntry: transceiverId %d ntransceiverRfUseTableIndex %d 
+Line 4376: uphy_CUphyDsl1rcMessageInterface_updateEventEntry: EventEntry is not created but trying to updateEventEntry transceiverId %d ntransceiverRfUseTableIndex %d 
+Line 4376: uphy_CUphyDsl1rcMessageInterface_updateEventEntry: EventEntry is not created but trying to updateEventEntry transceiverId %d ntransceiverRfUseTableIndex %d 
+Line 4414: uphy_CUphyDsl1rcMessageInterface_createEventEntryDuringConfig: transceiverId %d ntransceiverRfUseTableIndex %d 
+Line 4414: uphy_CUphyDsl1rcMessageInterface_createEventEntryDuringConfig: transceiverId %d ntransceiverRfUseTableIndex %d 
+Line 4418: uphy_CUphyDsl1rcMessageInterface_createEventEntryDuringConfig: pSrcTransceiverRfUseEntry->nextEvent == NULL
+Line 4418: uphy_CUphyDsl1rcMessageInterface_createEventEntryDuringConfig: pSrcTransceiverRfUseEntry->nextEvent == NULL
+Line 4431: uphy_CUphyDsl1rcMessageInterface_createEventEntryDuringConfig: uphyDsl1rcMessageInterface_ptr is null
+Line 4461: uphy_CUphyDsl1rcMessageInterface_updateTimerAfterRelInd: transceiverId %d ntransceiverRfUseTableIndex %d 
+Line 4461: uphy_CUphyDsl1rcMessageInterface_updateTimerAfterRelInd: transceiverId %d ntransceiverRfUseTableIndex %d 
+Line 4487: uphy_CUphyDsl1rcMessageInterface_updateTimer:
+Line 4487: uphy_CUphyDsl1rcMessageInterface_updateTimer:
+Line 4496: uphy_CUphyDsl1rcMessageInterface_updateTimer:ntransceiverRfUseTableIndex %d
+Line 4496: uphy_CUphyDsl1rcMessageInterface_updateTimer:ntransceiverRfUseTableIndex %d
+Line 4502: uphy_CUphyDsl1rcMessageInterface_updateTimer: First Entry is %d ntransceiverRfUseTableIndex
+Line 4502: uphy_CUphyDsl1rcMessageInterface_updateTimer: First Entry is %d ntransceiverRfUseTableIndex
+Line 4506: uphy_CUphyDsl1rcMessageInterface_updateTimer: index %d
+Line 4506: uphy_CUphyDsl1rcMessageInterface_updateTimer: index %d
+Line 4509: uphy_CUphyDsl1rcMessageInterface_updateTimer: index is %d
+Line 4509: uphy_CUphyDsl1rcMessageInterface_updateTimer: index is %d
+Line 4512: uphy_CUphyDsl1rcMessageInterface_updateTimer: nextWakeupCause %d
+Line 4512: uphy_CUphyDsl1rcMessageInterface_updateTimer: nextWakeupCause %d
+Line 4513: uphy_CUphyDsl1rcMessageInterface_updateTimer: nextEventStartTime %d %d
+Line 4513: uphy_CUphyDsl1rcMessageInterface_updateTimer: nextEventStartTime %d %d
+Line 4547: uphy_CUphyDsl1rcMessageInterface_updateTimer: CGI Mode is configured
+Line 4547: uphy_CUphyDsl1rcMessageInterface_updateTimer: CGI Mode is configured
+Line 4631: lockedMsg == NULL pointer
+Line 4631: lockedMsg == NULL pointer
+Line 4646: unlockedMsg == NULL pointer
+Line 4646: unlockedMsg == NULL pointer
+Line 4650: uphy_CUphyDsl1rcMessageTransceiver_SendCnfMessage with unrecongniosed MsgId to confirm
+Line 4650: uphy_CUphyDsl1rcMessageTransceiver_SendCnfMessage with unrecongniosed MsgId to confirm
+Line 4674: Cant send Interface Lock / Unlock Cnf
+Line 4674: Cant send Interface Lock / Unlock Cnf
+Line 4699: uphy_CUphyDsl1rcMessageInterface_checkRFConfigDone 
+Line 4699: uphy_CUphyDsl1rcMessageInterface_checkRFConfigDone 
+Line 4730: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: BPLMN is configured BCH BPLMN uarfcn is %d
+Line 4730: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: BPLMN is configured BCH BPLMN uarfcn is %d
+Line 4735: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: UE did not camp to any frequency
+Line 4735: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: UE did not camp to any frequency
+Line 4747: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: SecUarfcn is not set yet
+Line 4747: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: SecUarfcn is not set yet
+Line 4772: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RF UARFCN Error %d, Additional Error %d
+Line 4772: uphy_CUphyDsl1rcMessageInterface_reconfigureRf: RF UARFCN Error %d, Additional Error %d
+Line 4776: DR-DSDS: Retry RxUarfcn command
+Line 4776: DR-DSDS: Retry RxUarfcn command
+Line 4786: uphy_CUphyDsl1rcMessageInterface_checkRFConfigDone : No stuck in RfSettling State
+Line 4786: uphy_CUphyDsl1rcMessageInterface_checkRFConfigDone : No stuck in RfSettling State
+Line 4797: uphy_CUphyDsl1rcMessageInterface_handlePsPsStatusInd : isPsPsEnabled %d, resumeReadyPeriod %d, setAutoResumeTimer %d
+Line 4797: uphy_CUphyDsl1rcMessageInterface_handlePsPsStatusInd : isPsPsEnabled %d, resumeReadyPeriod %d, setAutoResumeTimer %d
+Line 4818: uphy_CUphyDsl1rcMessageInterface_handleRescheduleWakeup 
+Line 4818: uphy_CUphyDsl1rcMessageInterface_handleRescheduleWakeup 
+Line 4828: pichRSN not available could not process further
+Line 4828: pichRSN not available could not process further
+Line 4850: uphy_CUphyDsl1rcMessageInterface_handlePichNackNotification 
+Line 4850: uphy_CUphyDsl1rcMessageInterface_handlePichNackNotification 
+Line 4858: uphy_CUphyDsl1rcMessageInterface_handlePichNackNotification: pichRSN(%d)
+Line 4858: uphy_CUphyDsl1rcMessageInterface_handlePichNackNotification: pichRSN(%d)
+Line 4861: pichRSN not available could not process further
+Line 4861: pichRSN not available could not process further
+Line 4869: Modem is sleeping could not process further for early wakeup
+Line 4869: Modem is sleeping could not process further for early wakeup
+Line 4873: EarlyWakeup not required as wakeup is ongoing
+Line 4873: EarlyWakeup not required as wakeup is ongoing
+Line 4901: Less margin to do early wakeup diffWakeupRsn %d
+Line 4901: Less margin to do early wakeup diffWakeupRsn %d
+Line 4906: EarlyWakeup can't be done as earlywakeupRSN is in past
+Line 4906: EarlyWakeup can't be done as earlywakeupRSN is in past
+Line 4926: uphy_CUphyDsl1rcMessageInterface_triggerResume. isDRResume %d rfUseReason %d
+Line 4926: uphy_CUphyDsl1rcMessageInterface_triggerResume. isDRResume %d rfUseReason %d
+Line 4952: HW was not released, No Asip Download
+Line 4982: uphy_CUphyDsl1rcMessageInterface_triggerResume: AfcEnableCmd failed. errCode=%d, addErrCode=%d
+Line 4982: uphy_CUphyDsl1rcMessageInterface_triggerResume: AfcEnableCmd failed. errCode=%d, addErrCode=%d
+Line 4996: DSDS:  Checking RfAgcSettleDown interrupt after %dms
+Line 4996: DSDS:  Checking RfAgcSettleDown interrupt after %dms
+Line 5018: uphy_CUphyDsl1rcMessageInterface_triggerPause, is3gHwRelReqd : %d
+Line 5018: uphy_CUphyDsl1rcMessageInterface_triggerPause, is3gHwRelReqd : %d
+Line 5030: uphy_CUphyDsl1rcMessageInterface_triggerPause: Stop LMAC hsdpa parser 
+Line 5030: uphy_CUphyDsl1rcMessageInterface_triggerPause: Stop LMAC hsdpa parser 
+Line 5059: AFC disable successfully. 
+Line 5059: AFC disable successfully. 
+Line 5065: AFC disable failed
+Line 5065: AFC disable failed
+Line 5119: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_RF_USE_RSP
+Line 5119: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_RF_USE_RSP
+Line 5139: HW was not released, No Asip Download
+Line 5153: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: RF Access Granted
+Line 5153: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: RF Access Granted
+Line 5159: DSDS: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap send Rf Release since no controller has requested
+Line 5159: DSDS: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap send Rf Release since no controller has requested
+Line 5168: DSDS: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap RfUseRsp was received when RF was already in use
+Line 5168: DSDS: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap RfUseRsp was received when RF was already in use
+Line 5173: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest: RF configuration Initiated!
+Line 5173: uphy_CUphyDsl1rcMessageInterface_sendRfUseRequest: RF configuration Initiated!
+Line 5182: Resume will be sent after RF reconfiguration to internally paused controllers
+Line 5182: Resume will be sent after RF reconfiguration to internally paused controllers
+Line 5200: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Unexpected Response
+Line 5200: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Unexpected Response
+Line 5210: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_RF_USE_PAUSE_REQ is3gHwRelReqd %d
+Line 5210: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_RF_USE_PAUSE_REQ is3gHwRelReqd %d
+Line 5224: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_RF_USE_PAUSE_REQ RF rescheduled for 10 ms
+Line 5224: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_RF_USE_PAUSE_REQ RF rescheduled for 10 ms
+Line 5230: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Queuing CUPHY_RF_USE_PAUSE_REQ as UPHY is not in proper state!
+Line 5230: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Queuing CUPHY_RF_USE_PAUSE_REQ as UPHY is not in proper state!
+Line 5240: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Pause is already underway!!
+Line 5240: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Pause is already underway!!
+Line 5250: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Releasing Rf since no controller using
+Line 5250: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Releasing Rf since no controller using
+Line 5270: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_RF_USE_PAUSE_REQ RF rescheduled for %d ms, isRfPauseDelayed = %d
+Line 5270: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_RF_USE_PAUSE_REQ RF rescheduled for %d ms, isRfPauseDelayed = %d
+Line 5297: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_RF_USE_RESUME_REQ. isDRResume %d
+Line 5297: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_RF_USE_RESUME_REQ. isDRResume %d
+Line 5303: DSDS: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap send Rf Release since no controller is using RF
+Line 5303: DSDS: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap send Rf Release since no controller is using RF
+Line 5319: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_RF_USE_RESUME_REQ
+Line 5319: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_RF_USE_RESUME_REQ
+Line 5325: DSDS: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap send Rf Release since no controller Paused
+Line 5325: DSDS: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap send Rf Release since no controller Paused
+Line 5364: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: cancel resume token 
+Line 5364: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: cancel resume token 
+Line 5368: DSDS: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Delay Resume, pause_time = %d 
+Line 5368: DSDS: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Delay Resume, pause_time = %d 
+Line 5383: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_EARLYPAUSE_TIMER_START
+Line 5383: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_EARLYPAUSE_TIMER_START
+Line 5390: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Not in proper state to start autopause!!
+Line 5390: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Not in proper state to start autopause!!
+Line 5399: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: IRAT on going! Not in proper state to start autopause!!
+Line 5399: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: IRAT on going! Not in proper state to start autopause!!
+Line 5412: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Not in proper state to start autopause!!
+Line 5412: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Not in proper state to start autopause!!
+Line 5419: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_EARLYPAUSE_TIMER_STOP
+Line 5419: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_EARLYPAUSE_TIMER_STOP
+Line 5427: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_RESCHEDULE_WAKEUP
+Line 5427: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_RESCHEDULE_WAKEUP
+Line 5432: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Skip CUPHY_RESCHEDULE_WAKEUP
+Line 5432: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Skip CUPHY_RESCHEDULE_WAKEUP
+Line 5438: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_PS_PS_STATUS_IND
+Line 5438: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_PS_PS_STATUS_IND
+Line 5444: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_PICH_NACK_NOTIFICATION
+Line 5444: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_PICH_NACK_NOTIFICATION
+Line 5450: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_SEARCHER_USE_RSP
+Line 5450: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_SEARCHER_USE_RSP
+Line 5458: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Searcher Access Granted
+Line 5458: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Searcher Access Granted
+Line 5462: DSDS: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap send Searcher Release since no controller has requested
+Line 5462: DSDS: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap send Searcher Release since no controller has requested
+Line 5484: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Unexpected Response
+Line 5484: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Unexpected Response
+Line 5492: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_SEARCHER_USE_PAUSE
+Line 5492: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_SEARCHER_USE_PAUSE
+Line 5500: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Pause is already underway!!
+Line 5500: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Pause is already underway!!
+Line 5508: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Releasing Searcher since no controller using
+Line 5508: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Releasing Searcher since no controller using
+Line 5518: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_SEARCHER_USE_RESUME
+Line 5518: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Rx CUPHY_SEARCHER_USE_RESUME
+Line 5525: DSDS: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap send Searcher Release since no controller Paused
+Line 5525: DSDS: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap send Searcher Release since no controller Paused
+Line 5543: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Dsl1rc interface is locked. UPHY must have received NON UMTS RAT MODE REQ, Received Msg Id = %d
+Line 5543: uphy_CUphyDsl1rcMessageInterface_UphyDsl1rcSap: Dsl1rc interface is locked. UPHY must have received NON UMTS RAT MODE REQ, Received Msg Id = %d
+Line 5584: uphy_CUphyDsl1rcMessageInterface_processQueuedMessage: Dequeued ScrId: %d MsgId: %d
+Line 5584: uphy_CUphyDsl1rcMessageInterface_processQueuedMessage: Dequeued ScrId: %d MsgId: %d
+Line 5589: uphy_CUphyDsl1rcMessageInterface_processQueuedMessage: Number of Queued Msgs:  %d
+Line 5589: uphy_CUphyDsl1rcMessageInterface_processQueuedMessage: Number of Queued Msgs:  %d
+Line 5601: uphy_CUphyDsl1rcMessageInterface_resetMessageQueue: Flushes queue msg ScrId: %d MsgId: %d
+Line 5601: uphy_CUphyDsl1rcMessageInterface_resetMessageQueue: Flushes queue msg ScrId: %d MsgId: %d
+Line 5624: uphy_CUphyDsl1rcMessageInterface_queueMessage:msgDeadlineListInfo == NULL pointer
+Line 5624: uphy_CUphyDsl1rcMessageInterface_queueMessage:msgDeadlineListInfo == NULL pointer
+Line 5636: uphy_CUphyDsl1rcMessageInterface_queueMessage: ScrId: %d  Enqueued MsgId: %d to the Head
+Line 5636: uphy_CUphyDsl1rcMessageInterface_queueMessage: ScrId: %d  Enqueued MsgId: %d to the Head
+Line 5642: uphy_CUphyDsl1rcMessageInterface_queueMessage: Enqueued  ScrId: %d MsgId: %d to the Tail
+Line 5642: uphy_CUphyDsl1rcMessageInterface_queueMessage: Enqueued  ScrId: %d MsgId: %d to the Tail
+Line 5646: uphy_CUphyDsl1rcMessageInterface_queueMessage: Number of Queued Msgs:  %d
+Line 5646: uphy_CUphyDsl1rcMessageInterface_queueMessage: Number of Queued Msgs:  %d
+Line 5691: uphy_CUphyDsl1rcMessageInterface_processRfUseReleaseRequest for Transceiver ID=%d 
+Line 5691: uphy_CUphyDsl1rcMessageInterface_processRfUseReleaseRequest for Transceiver ID=%d 
+Line 5695: Reset StoredReqReasonFromRLC
+Line 5695: Reset StoredReqReasonFromRLC
+Line 5698: uphy_CUphyDsl1rcMessageInterface_processRfUseReleaseRequest
+Line 5698: uphy_CUphyDsl1rcMessageInterface_processRfUseReleaseRequest
+Line 5718: uphy_CUphyDsl1rcMessageInterface_processRfUseReleaseRequest: update is postoned to next Resume!!
+Line 5718: uphy_CUphyDsl1rcMessageInterface_processRfUseReleaseRequest: update is postoned to next Resume!!
+Line 5746: uphy_CUphyDsl1rcMessageInterface_processRfUseReleaseRequest: DRImpossible status update failed
+Line 5746: uphy_CUphyDsl1rcMessageInterface_processRfUseReleaseRequest: DRImpossible status update failed
+Line 5755: uphy_CUphyDsl1rcMessageInterface_processRfUseReleaseRequest: don't do anything response from dsl1rc for the requested transceiver will take care
+Line 5755: uphy_CUphyDsl1rcMessageInterface_processRfUseReleaseRequest: don't do anything response from dsl1rc for the requested transceiver will take care
+Line 5768: uphy_CUphyDsl1rcMessageInterface_processRfUseReleaseRequest: update is postoned to next Resume!!
+Line 5768: uphy_CUphyDsl1rcMessageInterface_processRfUseReleaseRequest: update is postoned to next Resume!!
+Line 5772: uphy_CUphyDsl1rcMessageInterface_processRfUseReleaseRequest: Release RF!
+Line 5772: uphy_CUphyDsl1rcMessageInterface_processRfUseReleaseRequest: Release RF!
+Line 5788: uphy_CUphyDsl1rcMessageInterface_triggerSearcherPause
+Line 5788: uphy_CUphyDsl1rcMessageInterface_triggerSearcherPause
+Line 5811: uphy_CUphyDsl1rcMessageInterface_triggerSearcherResume 
+Line 5811: uphy_CUphyDsl1rcMessageInterface_triggerSearcherResume 
+Line 5834: uphy_CUphyDsl1rcMessageInterface_updateIsDRImpossible: isDRImpossible = TRUE by TransceiverId: %d!
+Line 5834: uphy_CUphyDsl1rcMessageInterface_updateIsDRImpossible: isDRImpossible = TRUE by TransceiverId: %d!
+Line 5852: uphy_CUphyDsl1rcMessageInterface_processUpdateDRDbRequest for Transceiver ID=%d 
+Line 5852: uphy_CUphyDsl1rcMessageInterface_processUpdateDRDbRequest for Transceiver ID=%d 
+Line 5861: uphy_CUphyDsl1rcMessageInterface_processUpdateDRDbRequest for Transceiver ID=%d Failed!
+Line 5861: uphy_CUphyDsl1rcMessageInterface_processUpdateDRDbRequest for Transceiver ID=%d Failed!
+Line 5876: uphy_CUphyDsl1rcMessageInterface_processIsDRImpossibleRequest for Transceiver ID=%d 
+Line 5876: uphy_CUphyDsl1rcMessageInterface_processIsDRImpossibleRequest for Transceiver ID=%d 
+Line 5883: uphy_CUphyDsl1rcMessageInterface_processIsDRImpossibleRequest for Transceiver ID=%d Failed!
+Line 5883: uphy_CUphyDsl1rcMessageInterface_processIsDRImpossibleRequest for Transceiver ID=%d Failed!
+Line 5904: uphy_CUphyDsl1rcMessageInterface_processSearcherUseRequest : Searcher Access Request is rejected as Searcher is in paused state!!
+Line 5904: uphy_CUphyDsl1rcMessageInterface_processSearcherUseRequest : Searcher Access Request is rejected as Searcher is in paused state!!
+Line 5910: uphy_CUphyDsl1rcMessageInterface_processSearcherUseRequest for Transceiver ID=%d 
+Line 5910: uphy_CUphyDsl1rcMessageInterface_processSearcherUseRequest for Transceiver ID=%d 
+Line 5932: uphy_CUphyDsl1rcMessageInterface_processSearcherUseRequest: Another Higher Priority task is using Searcher. So use Searcher directly
+Line 5932: uphy_CUphyDsl1rcMessageInterface_processSearcherUseRequest: Another Higher Priority task is using Searcher. So use Searcher directly
+Line 5954: uphy_CUphyDsl1rcMessageInterface_processSearcherUseRequest : Searcher Access Request is rejected as RF grant is not in Use
+Line 5954: uphy_CUphyDsl1rcMessageInterface_processSearcherUseRequest : Searcher Access Request is rejected as RF grant is not in Use
+Line 5975: uphy_CUphyDsl1rcMessageInterface_processSearcherUseReleaseRequest for Transceiver ID=%d 
+Line 5975: uphy_CUphyDsl1rcMessageInterface_processSearcherUseReleaseRequest for Transceiver ID=%d 
+Line 5995: uphy_CUphyDsl1rcMessageInterface_processSearcherUseReleaseRequest: update is postoned to next Resume!!
+Line 5995: uphy_CUphyDsl1rcMessageInterface_processSearcherUseReleaseRequest: update is postoned to next Resume!!
+Line 6023: uphy_CUphyDsl1rcMessageInterface_processSearcherUseReleaseRequest: update is postoned to next Resume!!
+Line 6023: uphy_CUphyDsl1rcMessageInterface_processSearcherUseReleaseRequest: update is postoned to next Resume!!
+Line 6027: uphy_CUphyDsl1rcMessageInterface_processSearcherUseReleaseRequest: Release Searcher!
+Line 6027: uphy_CUphyDsl1rcMessageInterface_processSearcherUseReleaseRequest: Release Searcher!
+Line 6071: uphy_CUphyDsl1rcMessageInterface_process
+Line 6071: uphy_CUphyDsl1rcMessageInterface_process
+Line 6086: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_InterfaceUnLockReq
+Line 6086: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_InterfaceUnLockReq
+Line 6092: uphy_CUphyDsl1rcMessageInterface_process: Register to DSL1RC failed!!
+Line 6092: uphy_CUphyDsl1rcMessageInterface_process: Register to DSL1RC failed!!
+Line 6111: uphy_CUphyDsl1rcMessageInterface_process: De-register from DSL1RC failed!!
+Line 6111: uphy_CUphyDsl1rcMessageInterface_process: De-register from DSL1RC failed!!
+Line 6117: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_InterfaceLockReq
+Line 6117: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_InterfaceLockReq
+Line 6126: uphy_CUphyDsl1rcMessageInterface_process: De-register from DSL1RC failed!!
+Line 6126: uphy_CUphyDsl1rcMessageInterface_process: De-register from DSL1RC failed!!
+Line 6133: uphy_CUphyDsl1rcMessageInterface_process: Interface is locked!!Unknown MessageId: %d
+Line 6133: uphy_CUphyDsl1rcMessageInterface_process: Interface is locked!!Unknown MessageId: %d
+Line 6147: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_InterfaceLockReq
+Line 6147: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_InterfaceLockReq
+Line 6154: Cancel retryRegisterToDSL1RC token
+Line 6154: Cancel retryRegisterToDSL1RC token
+Line 6163: EUphyDsl1rcMessageTransceiverMsgId_InterfaceLockReq: Release RF!
+Line 6163: EUphyDsl1rcMessageTransceiverMsgId_InterfaceLockReq: Release RF!
+Line 6173: uphy_CUphyDsl1rcMessageInterface_process: De-register from DSL1RC failed!!
+Line 6173: uphy_CUphyDsl1rcMessageInterface_process: De-register from DSL1RC failed!!
+Line 6194: uphy_CUphyDsl1rcMessageInterface_process: IratBplmnStopInd
+Line 6194: uphy_CUphyDsl1rcMessageInterface_process: IratBplmnStopInd
+Line 6202: uphy_CUphyDsl1rcMessageInterface_process: Register to DSL1RC sucessfull
+Line 6202: uphy_CUphyDsl1rcMessageInterface_process: Register to DSL1RC sucessfull
+Line 6206: uphy_CUphyDsl1rcMessageInterface_process: Register to DSL1RC failed!!
+Line 6206: uphy_CUphyDsl1rcMessageInterface_process: Register to DSL1RC failed!!
+Line 6215: uphy_CUphyDsl1rcMessageInterface_process : RF Access Request is rejected as RF use is in paused state!! Retry after %d
+Line 6215: uphy_CUphyDsl1rcMessageInterface_process : RF Access Request is rejected as RF use is in paused state!! Retry after %d
+Line 6259: uphy_CUphyDsl1rcMessageInterface_process: SimInfo(%d) isDRImpossible(%d)
+Line 6259: uphy_CUphyDsl1rcMessageInterface_process: SimInfo(%d) isDRImpossible(%d)
+Line 6267: uphy_CUphyDsl1rcMessageInterface_process: CUphyDsl1rcMessageInterfaceSimInfo_sub
+Line 6267: uphy_CUphyDsl1rcMessageInterface_process: CUphyDsl1rcMessageInterfaceSimInfo_sub
+Line 6278: uphy_CUphyDsl1rcMessageInterface_process: DRImpossible status update failed
+Line 6278: uphy_CUphyDsl1rcMessageInterface_process: DRImpossible status update failed
+Line 6284: uphy_CUphyDsl1rcMessageInterface_process: Another Higher Priority task is using RF. So use RF directly
+Line 6284: uphy_CUphyDsl1rcMessageInterface_process: Another Higher Priority task is using RF. So use RF directly
+Line 6308: uphy_CUphyDsl1rcMessageInterface_process: Release Searcher Grant as part of RF release
+Line 6308: uphy_CUphyDsl1rcMessageInterface_process: Release Searcher Grant as part of RF release
+Line 6320: uphy_CUphyDsl1rcMessageInterface_process: De-register from DSL1RC successful
+Line 6320: uphy_CUphyDsl1rcMessageInterface_process: De-register from DSL1RC successful
+Line 6324: uphy_CUphyDsl1rcMessageInterface_process: De-register from DSL1RC failed!!
+Line 6324: uphy_CUphyDsl1rcMessageInterface_process: De-register from DSL1RC failed!!
+Line 6331: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_RfUsePauseCnf
+Line 6331: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_RfUsePauseCnf
+Line 6347: uphy_CUphyDsl1rcMessageInterface_process: Release RF!
+Line 6347: uphy_CUphyDsl1rcMessageInterface_process: Release RF!
+Line 6352: uphy_CUphyDsl1rcMessageInterface_process: Rf Still In Use. Can't Release RF!
+Line 6352: uphy_CUphyDsl1rcMessageInterface_process: Rf Still In Use. Can't Release RF!
+Line 6358: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_IratBplmnStartInd
+Line 6358: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_IratBplmnStartInd
+Line 6367: uphy_CUphyDsl1rcMessageInterface_process: De-register from DSL1RC successful
+Line 6367: uphy_CUphyDsl1rcMessageInterface_process: De-register from DSL1RC successful
+Line 6371: uphy_CUphyDsl1rcMessageInterface_process: De-register from DSL1RC failed!!
+Line 6371: uphy_CUphyDsl1rcMessageInterface_process: De-register from DSL1RC failed!!
+Line 6376: uphy_CUphyDsl1rcMessageInterface_process: Wait for RF release to de-register
+Line 6376: uphy_CUphyDsl1rcMessageInterface_process: Wait for RF release to de-register
+Line 6382: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_UpdateDRDb
+Line 6382: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_UpdateDRDb
+Line 6386: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_IsDRImpossible
+Line 6386: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_IsDRImpossible
+Line 6390: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_SearcherUseReq
+Line 6390: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_SearcherUseReq
+Line 6394: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_SearcherUseRel
+Line 6394: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_SearcherUseRel
+Line 6398: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_SearcherUsePauseCnf
+Line 6398: uphy_CUphyDsl1rcMessageInterface_process: EUphyDsl1rcMessageTransceiverMsgId_SearcherUsePauseCnf
+Line 6414: uphy_CUphyDsl1rcMessageInterface_process: Release Searcher!
+Line 6414: uphy_CUphyDsl1rcMessageInterface_process: Release Searcher!
+Line 6419: uphy_CUphyDsl1rcMessageInterface_process: Searcher Still In Use. Can't Release Searcher!
+Line 6419: uphy_CUphyDsl1rcMessageInterface_process: Searcher Still In Use. Can't Release Searcher!
+Line 6425: uphy_CUphyDsl1rcMessageInterface_process: Interface is unlocked: unknown MessageId %d!!
+Line 6425: uphy_CUphyDsl1rcMessageInterface_process: Interface is unlocked: unknown MessageId %d!!
+Line 6654: uphy_CUphyDsl1rcMessageInterface_registerToDSL1RC: CGI Mode is configured
+Line 6654: uphy_CUphyDsl1rcMessageInterface_registerToDSL1RC: CGI Mode is configured
+Line 6749: Instance created for stackId %d
+Line 6749: Instance created for stackId %d
+Line 6793: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: Interface is locked
+Line 6793: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: Interface is locked
+Line 6800: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest : Searcher Access Request is rejected as DSL1RC Message Interface is waiting for Searcher Use Response from DSL1RC
+Line 6800: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest : Searcher Access Request is rejected as DSL1RC Message Interface is waiting for Searcher Use Response from DSL1RC
+Line 6805: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: EUphyDsl1rcMessageTransceiverMsgId_SearcherUseReq Searcher Access Requested: TransceiverId: %d Reason: %d TransceiverSearcherState: %d UphySearcherState: %d
+Line 6805: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: EUphyDsl1rcMessageTransceiverMsgId_SearcherUseReq Searcher Access Requested: TransceiverId: %d Reason: %d TransceiverSearcherState: %d UphySearcherState: %d
+Line 6810: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest : Searcher Access Request is rejected as Searcher use is in paused state!! Retry after %d
+Line 6810: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest : Searcher Access Request is rejected as Searcher use is in paused state!! Retry after %d
+Line 6837: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: SearcherUseRsp Searcher Access Granted
+Line 6837: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: SearcherUseRsp Searcher Access Granted
+Line 6844: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: SearcherUseRsp Searcher Access Rejected
+Line 6844: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: SearcherUseRsp Searcher Access Rejected
+Line 6851: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: Retain previous Searcher use state and reason if updation is rejected
+Line 6851: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: Retain previous Searcher use state and reason if updation is rejected
+Line 6863: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: Another Higher Priority task is using Searcher. So use Searcher directly
+Line 6863: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: Another Higher Priority task is using Searcher. So use Searcher directly
+Line 6885: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: SearcherUseRsp Searcher Access Granted
+Line 6885: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: SearcherUseRsp Searcher Access Granted
+Line 6892: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: SearcherUseRsp Searcher Access Rejected
+Line 6892: uphy_CUphyDsl1rcMessageInterface_sendDirectSearcherUseRequest: SearcherUseRsp Searcher Access Rejected
+Line 7100: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: Interface is locked
+Line 7100: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: Interface is locked
+Line 7110: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: IratBplmnStopInd
+Line 7110: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: IratBplmnStopInd
+Line 7118: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: Register to DSL1RC sucessfull
+Line 7118: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: Register to DSL1RC sucessfull
+Line 7122: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: Register to DSL1RC failed!!
+Line 7122: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: Register to DSL1RC failed!!
+Line 7132: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest : RF Access Request is rejected as DSL1RC Message Interface is waiting for RF Use Response from DSL1RC or RF is in Settling State !!
+Line 7132: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest : RF Access Request is rejected as DSL1RC Message Interface is waiting for RF Use Response from DSL1RC or RF is in Settling State !!
+Line 7137: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: EUphyDsl1rcMessageTransceiverMsgId_RfUseReq RF Access Requested: TransceiverId: %d Reason: %d TransceiverRfState: %d UphyRfState: %d
+Line 7137: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: EUphyDsl1rcMessageTransceiverMsgId_RfUseReq RF Access Requested: TransceiverId: %d Reason: %d TransceiverRfState: %d UphyRfState: %d
+Line 7142: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest : RF Access Request is rejected as RF use is in paused state!! Retry after %d
+Line 7142: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest : RF Access Request is rejected as RF use is in paused state!! Retry after %d
+Line 7178: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 7178: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 7192: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 7192: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 7199: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: Retain previous RF use state and reason if updation is rejected
+Line 7199: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: Retain previous RF use state and reason if updation is rejected
+Line 7225: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: DRImpossible status update failed
+Line 7225: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: DRImpossible status update failed
+Line 7228: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: Another Higher Priority task is using RF. So use RF directly
+Line 7228: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: Another Higher Priority task is using RF. So use RF directly
+Line 7265: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 7265: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Granted
+Line 7283: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 7283: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRequest: EUphyPchAndDrxResourcesControllerMsgId_RfUseRsp RF Access Rejected
+Line 7305: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRelease: TransceiverId: %d UphyRfState: %d
+Line 7305: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRelease: TransceiverId: %d UphyRfState: %d
+Line 7319: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRelease: De-register from DSL1RC successful
+Line 7319: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRelease: De-register from DSL1RC successful
+Line 7323: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRelease: De-register from DSL1RC failed!!
+Line 7323: uphy_CUphyDsl1rcMessageInterface_sendDirectRfUseRelease: De-register from DSL1RC failed!!
+Line 7349: %s: rfState is RFInUse 
+Line 7349: %s: rfState is RFInUse 
+Line 7355: %s: Ignoring autopause because pause is received in RF setting state of UPHY DSL1RC
+Line 7355: %s: Ignoring autopause because pause is received in RF setting state of UPHY DSL1RC
+Line 7360: DSDS: autopause handler expiry with out start or after stop
+Line 7360: DSDS: autopause handler expiry with out start or after stop
+Line 7384: DSDS: autopauseresume handler expiry with out start or after stop
+Line 7384: DSDS: autopauseresume handler expiry with out start or after stop
+Line 7403: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPause: gapInUSec=%u autoPauseSetAt=%u currentTime=%u
+Line 7403: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPause: gapInUSec=%u autoPauseSetAt=%u currentTime=%u
+Line 7407: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPause: delayed autoPause detected. realGapInUsec=%u(us)
+Line 7407: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPause: delayed autoPause detected. realGapInUsec=%u(us)
+Line 7425: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPause: autopause not allowed due to UPHY signaling at=%d microseconds
+Line 7425: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPause: autopause not allowed due to UPHY signaling at=%d microseconds
+Line 7435: Posting Event to UL2DL task  for processing pending transaction. 
+Line 7435: Posting Event to UL2DL task  for processing pending transaction. 
+Line 7444: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPause: autopause triggered at=%d microseconds is3gHwRelReqdStatus %d is3gHwRelReqd %d
+Line 7444: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPause: autopause triggered at=%d microseconds is3gHwRelReqdStatus %d is3gHwRelReqd %d
+Line 7452: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPause: autopause ignored at=%d microseconds resumedelayToken = 0x%x
+Line 7452: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPause: autopause ignored at=%d microseconds resumedelayToken = 0x%x
+Line 7462: Posting Event to UL2DL task  for processing pending transaction. 
+Line 7462: Posting Event to UL2DL task  for processing pending transaction. 
+Line 7469: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPause: autopause not allowed at=%d microseconds
+Line 7469: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPause: autopause not allowed at=%d microseconds
+Line 7479: Posting Event to UL2DL task  for processing pending transaction. 
+Line 7479: Posting Event to UL2DL task  for processing pending transaction. 
+Line 7492: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPauseResumeReady: autopauseResume Ready triggered at=%d microseconds
+Line 7492: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPauseResumeReady: autopauseResume Ready triggered at=%d microseconds
+Line 7514: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPauseResumeReady: autopauseResume Ready Processing failed
+Line 7514: DSDS: uphy_CUphyDsl1rcMessageInterface_autoPauseResumeReady: autopauseResume Ready Processing failed
+Line 7534: uphy_CUphyDsl1rcMessageInterface_AutoPauseResumeReady
+Line 7534: uphy_CUphyDsl1rcMessageInterface_AutoPauseResumeReady
+Line 7603: DSDS: uphy_CUphyDsl1rcMessageInterface_ignoreAutoPauseInFach randValue=%d GSMRFPercentage %d fachRejectCount %d
+Line 7603: DSDS: uphy_CUphyDsl1rcMessageInterface_ignoreAutoPauseInFach randValue=%d GSMRFPercentage %d fachRejectCount %d
+Line 7607: DSDS: uphy_CUphyDsl1rcMessageInterface_ignoreAutoPauseInFach pSrcFachRfUseEntry->state %d PSActive %d
+Line 7607: DSDS: uphy_CUphyDsl1rcMessageInterface_ignoreAutoPauseInFach pSrcFachRfUseEntry->state %d PSActive %d
+Line 7611: DSDS: uphy_CUphyDsl1rcMessageInterface_ignoreAutoPauseInFach  fachRejectCount %d
+Line 7611: DSDS: uphy_CUphyDsl1rcMessageInterface_ignoreAutoPauseInFach  fachRejectCount %d
+Line 7622: DSDS: uphy_CUphyDsl1rcMessageInterface_ignoreAutoPauseInFach result=%d
+Line 7622: DSDS: uphy_CUphyDsl1rcMessageInterface_ignoreAutoPauseInFach result=%d
+Line 7646: DSDS: uphy_CUphyDsl1rcMessageInterface_SetAutoPause: DCH is in None state
+Line 7646: DSDS: uphy_CUphyDsl1rcMessageInterface_SetAutoPause: DCH is in None state
+Line 7676: autoPauseTimer set Failed!
+Line 7676: autoPauseTimer set Failed!
+Line 7687: DSDS: uphy_CUphyDsl1rcMessageInterface_SetAutoPause: autopause set at=%d microseconds for %d given by dsl1rc, gapInUsec=%d maxTGPSLength=%d is3gHwRelReqd %d
+Line 7687: DSDS: uphy_CUphyDsl1rcMessageInterface_SetAutoPause: autopause set at=%d microseconds for %d given by dsl1rc, gapInUsec=%d maxTGPSLength=%d is3gHwRelReqd %d
+Line 7693: DSDS uphy_CUphyDsl1rcMessageInterface_SetAutoPause: autoPauseRunning absEarlyPauseTime %d earlyPauseDuration %d 
+Line 7693: DSDS uphy_CUphyDsl1rcMessageInterface_SetAutoPause: autoPauseRunning absEarlyPauseTime %d earlyPauseDuration %d 
+Line 7716: DSDS: uphy_CUphyDsl1rcMessageInterface_SetAutoPauseAndResumeReady: isPsPsEnabled %d, resumeReadyPeriod=%d, maxTGPSLength = %d
+Line 7716: DSDS: uphy_CUphyDsl1rcMessageInterface_SetAutoPauseAndResumeReady: isPsPsEnabled %d, resumeReadyPeriod=%d, maxTGPSLength = %d
+Line 7722: autoPauseResumeReadyTimer set Failed!
+Line 7722: autoPauseResumeReadyTimer set Failed!
+Line 7727: DSDS: uphy_CUphyDsl1rcMessageInterface_SetAutoPauseAndResumeReady: resume ready set at=%d microseconds for expiry after %d microseconds
+Line 7727: DSDS: uphy_CUphyDsl1rcMessageInterface_SetAutoPauseAndResumeReady: resume ready set at=%d microseconds for expiry after %d microseconds
+Line 7734: autoPauseResumeReadyTimer set Failed!
+Line 7734: autoPauseResumeReadyTimer set Failed!
+Line 7739: DSDS: uphy_CUphyDsl1rcMessageInterface_SetAutoPauseAndResumeReady: resume ready set at=%d microseconds for expiry after %d microseconds
+Line 7739: DSDS: uphy_CUphyDsl1rcMessageInterface_SetAutoPauseAndResumeReady: resume ready set at=%d microseconds for expiry after %d microseconds
+Line 7746: DSDS: autoPauseResumeRunning
+Line 7746: DSDS: autoPauseResumeRunning
+Line 7776: DSDS: uphy_CUphyDsl1rcMessageInterface_cancelAutoPauseandResumeReadyTimers: autopause timer cancelled isRfResumeEventNeeded %d
+Line 7776: DSDS: uphy_CUphyDsl1rcMessageInterface_cancelAutoPauseandResumeReadyTimers: autopause timer cancelled isRfResumeEventNeeded %d
+Line 7791: Posting Event to UL2DL task  for processing pending transaction. 
+Line 7791: Posting Event to UL2DL task  for processing pending transaction. 
+Line 7797: DSDS: uphy_CUphyDsl1rcMessageInterface_cancelAutoPauseandResumeReadyTimers: resume ready timer cancelled
+Line 7797: DSDS: uphy_CUphyDsl1rcMessageInterface_cancelAutoPauseandResumeReadyTimers: resume ready timer cancelled
+Line 7828: DSDS: uphy_CUphyDsl1rcMessageInterface_cancelOnlyAutoPauseTimers: autopause timer cancelled isRfResumeEventNeeded %d
+Line 7828: DSDS: uphy_CUphyDsl1rcMessageInterface_cancelOnlyAutoPauseTimers: autopause timer cancelled isRfResumeEventNeeded %d
+Line 7843: Posting Event to UL2DL task  for processing pending transaction. 
+Line 7843: Posting Event to UL2DL task  for processing pending transaction. 
+Line 7857: DSDS: uphy_CUphyDsl1rcMessageInterface_setAutoPauseAllowed: isAutoPauseAllowed = %d
+Line 7857: DSDS: uphy_CUphyDsl1rcMessageInterface_setAutoPauseAllowed: isAutoPauseAllowed = %d
+Line 7881: DSDS: uphy_CUphyDsl1rcMessageInterface_setAutoPauseAllowed: isAutoPauseAllowed = %d
+Line 7881: DSDS: uphy_CUphyDsl1rcMessageInterface_setAutoPauseAllowed: isAutoPauseAllowed = %d
+Line 7902: uphy_CUphyDsl1rcMessageInterface_getTimeToAutoPause: uphyDsl1rcMessageInterface_ptr == NULL
+Line 7902: uphy_CUphyDsl1rcMessageInterface_getTimeToAutoPause: uphyDsl1rcMessageInterface_ptr == NULL
+Line 7910: DRDSDS: uphy_CUphyDsl1rcMessageInterface_getTimeToAutoPause: DR mode is enabled, autopause time need not to be considered
+Line 7910: DRDSDS: uphy_CUphyDsl1rcMessageInterface_getTimeToAutoPause: DR mode is enabled, autopause time need not to be considered
+Line 7925:  AbsTime %d CurrTime %d  timeToAutoPause:%d
+Line 7925:  AbsTime %d CurrTime %d  timeToAutoPause:%d
+Line 7929: uphy_CUphyDsl1rcMessageInterface_getTimeToAutoPause: autopause not running
+Line 7929: uphy_CUphyDsl1rcMessageInterface_getTimeToAutoPause: autopause not running
+Line 7934: DSDS: uphy_CUphyDsl1rcMessageInterface_getTimeToAutoPause: autopause not allowed
+Line 7934: DSDS: uphy_CUphyDsl1rcMessageInterface_getTimeToAutoPause: autopause not allowed
+Line 7944: DSDS: uphy_CUphyDsl1rcMessageInterface_isHwRelReqd: is3gHwRelReqd %d
+Line 7944: DSDS: uphy_CUphyDsl1rcMessageInterface_isHwRelReqd: is3gHwRelReqd %d
+Line 7952: uphy_CUphyDsl1rcMessageInterface_sendRfPauseStf 
+Line 7952: uphy_CUphyDsl1rcMessageInterface_sendRfPauseStf 
+Line 7966: Cancel scheduleRfPause token
+Line 7966: Cancel scheduleRfPause token
+Line 7981: uphy_CUphyDsl1rcMessageInterface_scheduleRfPause
+Line 7981: uphy_CUphyDsl1rcMessageInterface_scheduleRfPause
+Line 7989: uphy_CUphyDsl1rcMessageInterface_registerToDSL1RCStf 
+Line 7989: uphy_CUphyDsl1rcMessageInterface_registerToDSL1RCStf 
+Line 7996: uphy_CUphyDsl1rcMessageInterface_registerToDSL1RCStf: Register to DSL1RC failed again!!
+Line 7996: uphy_CUphyDsl1rcMessageInterface_registerToDSL1RCStf: Register to DSL1RC failed again!!
+Line 8008: Cancel retryRegisterToDSL1RC token
+Line 8008: Cancel retryRegisterToDSL1RC token
+Line 8018: uphy_CUphyDsl1rcMessageInterface_retryRegisterToDSL1RC: retry after = 10ms
+Line 8018: uphy_CUphyDsl1rcMessageInterface_retryRegisterToDSL1RC: retry after = 10ms
+Line 8040: uphy_CUphyDsl1rcMessageInterface_secondSIMPresent: retVal(%d) clientcount(%d) 
+Line 8040: uphy_CUphyDsl1rcMessageInterface_secondSIMPresent: retVal(%d) clientcount(%d) 
+Line 8061: uphy_CUphyDsl1rcMessageInterface_isOtherClient2G: Dsl1rcUphyClientId(%d), index(%d), retVal(%d)  
+Line 8061: uphy_CUphyDsl1rcMessageInterface_isOtherClient2G: Dsl1rcUphyClientId(%d), index(%d), retVal(%d)  
+Line 8088: uphy_CUphySrl1rcMessageInterface_isAnyOtherClientNon2G: Srl1rcUphyClientId(%d), retVal(%d)  
+Line 8088: uphy_CUphySrl1rcMessageInterface_isAnyOtherClientNon2G: Srl1rcUphyClientId(%d), retVal(%d)  
+Line 8111: uphy_CUphyDsl1rcMessageInterface_isOtherClient3G: Dsl1rcUphyClientId(%d), index(%d), retVal(%d)  
+Line 8111: uphy_CUphyDsl1rcMessageInterface_isOtherClient3G: Dsl1rcUphyClientId(%d), index(%d), retVal(%d)  
+Line 8136: uphy_CUphyDsl1rcMessageInterface_isAutoPauseAllowedForCDMA: Srl1rcUphyClientId(%d), RATMode(%d), isLastCDMAPagingRequestReject(%d), retVal(%d)
+Line 8136: uphy_CUphyDsl1rcMessageInterface_isAutoPauseAllowedForCDMA: Srl1rcUphyClientId(%d), RATMode(%d), isLastCDMAPagingRequestReject(%d), retVal(%d)
+Line 8163: uphy_CUphyDsl1rcMessageInterface_isOtherClient4G: Dsl1rcUphyClientId(%d), index(%d), retVal(%d)  
+Line 8163: uphy_CUphyDsl1rcMessageInterface_isOtherClient4G: Dsl1rcUphyClientId(%d), index(%d), retVal(%d)  
+Line 8186: uphy_CUphyDsl1rcMessageInterface_isOtherClientCDMA: Dsl1rcUphyClientId(%d), index(%d), retVal(%d)  
+Line 8186: uphy_CUphyDsl1rcMessageInterface_isOtherClientCDMA: Dsl1rcUphyClientId(%d), index(%d), retVal(%d)  
+Line 8203: uphy_CUphyDsl1rcMessageInterface_isOtherClientPausedWithSig: Invalid ClientId
+Line 8203: uphy_CUphyDsl1rcMessageInterface_isOtherClientPausedWithSig: Invalid ClientId
+Line 8222: uphy_CUphyDsl1rcMessageInterface_isOtherClientPausedWithSig: Dsl1rcUphyClientId(%d), index(%d), retVal(%d), state(%d), reason(%d)
+Line 8222: uphy_CUphyDsl1rcMessageInterface_isOtherClientPausedWithSig: Dsl1rcUphyClientId(%d), index(%d), retVal(%d), state(%d), reason(%d)
+Line 8249: uphy_CUphyDsl1rcMessageInterface_isRFUseBy3G: Dsl1rcUphyClientId(%d), index(%d), retVal(%d), state(%d) 
+Line 8249: uphy_CUphyDsl1rcMessageInterface_isRFUseBy3G: Dsl1rcUphyClientId(%d), index(%d), retVal(%d), state(%d) 
+Line 8276: uphy_CUphyDsl1rcMessageInterface_isRFUseBy3G: Dsl1rcUphyClientId(%d), index(%d), retVal(%d), state(%d) 
+Line 8276: uphy_CUphyDsl1rcMessageInterface_isRFUseBy3G: Dsl1rcUphyClientId(%d), index(%d), retVal(%d), state(%d) 
+Line 8297: uphy_CUphyDsl1rcMessageInterface_isRFUseByClient: Dsl1rcUphyClientId(%d), retVal(%d), state(%d) 
+Line 8297: uphy_CUphyDsl1rcMessageInterface_isRFUseByClient: Dsl1rcUphyClientId(%d), retVal(%d), state(%d) 
+Line 8359: delayedResumeStf: Triggering Delayed Resume 
+Line 8359: delayedResumeStf: Triggering Delayed Resume 
+Line 8388: uphy_CUphyDsl1rcMessageInterface_isOtherStackUsingRFForPSData: Dsl1rcUphyClientId(%d), otherClientId(%d), retVal(%d)
+Line 8388: uphy_CUphyDsl1rcMessageInterface_isOtherStackUsingRFForPSData: Dsl1rcUphyClientId(%d), otherClientId(%d), retVal(%d)
+Line 8422: SMC Correction HwSfn = %d SwSfn = %d
+Line 8422: SMC Correction HwSfn = %d SwSfn = %d
+Line 8445: SMC Correction DCH Configured, SlotOffset = %d
+Line 8445: SMC Correction DCH Configured, SlotOffset = %d
+Line 8451: SMC Correction CurrentRSN = %d, BoundaryRSN = %d, CPICHSlot = %d
+Line 8451: SMC Correction CurrentRSN = %d, BoundaryRSN = %d, CPICHSlot = %d
+Line 8478: uphy_CUphyDsl1rcMessageInterface_isOtherStackInPausedState: Srl1rcUphyClientId(%d), index(%d), OtherclientState(%d)  
+Line 8478: uphy_CUphyDsl1rcMessageInterface_isOtherStackInPausedState: Srl1rcUphyClientId(%d), index(%d), OtherclientState(%d)  
+Line 8523: uphy_CUphyDsl1rcMessageInterface_updatePICHRSN: Rx dsl1rc_l1intfDsl1rcToClientMsgType_RescheduleWakeupToPCH
+Line 8523: uphy_CUphyDsl1rcMessageInterface_updatePICHRSN: Rx dsl1rc_l1intfDsl1rcToClientMsgType_RescheduleWakeupToPCH
+Line 8528: uphy_CUphyDsl1rcMessageInterface_updatePICHRSN: Rx dsl1rc_l1intfDsl1rcToClientMsgType_PICHNackNotification
+Line 8528: uphy_CUphyDsl1rcMessageInterface_updatePICHRSN: Rx dsl1rc_l1intfDsl1rcToClientMsgType_PICHNackNotification
+Line 8533: uphy_CUphyDsl1rcMessageInterface_updatePICHRSN: unexpected RSP message rsp.msgtype(%d)
+Line 8533: uphy_CUphyDsl1rcMessageInterface_updatePICHRSN: unexpected RSP message rsp.msgtype(%d)
+Line 8536: uphy_CUphyDsl1rcMessageInterface_updatePICHRSN: Dsl1rcUphyClientId(%d), pichRSN(%d), retVal(%d)
+Line 8536: uphy_CUphyDsl1rcMessageInterface_updatePICHRSN: Dsl1rcUphyClientId(%d), pichRSN(%d), retVal(%d)
+Line 8549: uphy_CUphyDsl1rcMessageInterface_SetCrResolutionState: state(%d), retVal(%d) isForced(%d)
+Line 8562: uphy_CUphyDsl1rcMessageInterface_CriticalSRBRxIndhandler: DCH instance is cleared
+Line 8562: uphy_CUphyDsl1rcMessageInterface_CriticalSRBRxIndhandler: DCH instance is cleared
+Line 8568: Freeing up stopTfciBasedProtectionTimer as RLC protection under L1Signalling starts
+Line 8568: Freeing up stopTfciBasedProtectionTimer as RLC protection under L1Signalling starts
+Line 8595: storedReqReasonFromRLC = %d
+Line 8595: storedReqReasonFromRLC = %d
+Line 8628: Failed to create RF request message
+Line 8628: Failed to create RF request message
+Line 8655: Critical SRB Reception: TargetRfReason = %d CurrentRfReason = %d
+Line 8655: Critical SRB Reception: TargetRfReason = %d CurrentRfReason = %d
+Line 8662: RF not in use. Store message. TransceiverState = %d, TphyState = %d
+Line 8662: RF not in use. Store message. TransceiverState = %d, TphyState = %d
+Line 8671: SRB Protection RF request is success
+Line 8671: SRB Protection RF request is success
+Line 8677: SRB Protection RF request with reason is failed
+Line 8677: SRB Protection RF request with reason is failed
+Line 8686: pSrcTransceiverRfUseEntry is NULL or respective controller is already using RF with Signalling!!!
+Line 8686: pSrcTransceiverRfUseEntry is NULL or respective controller is already using RF with Signalling!!!
+Line 8800: uphy_CUphyDsl1rcMessageInterface_SetIsCGIModeConfigured: %d
+Line 8800: uphy_CUphyDsl1rcMessageInterface_SetIsCGIModeConfigured: %d
+Line 8807: uphy_CUphyDsl1rcMessageInterface_GetIsCGIModeConfigured: %d
+Line 8807: uphy_CUphyDsl1rcMessageInterface_GetIsCGIModeConfigured: %d
+Line 8816: uphy_SetRejectCauseInOtherClient4G: requestResponse %d retryPeriod %d
+Line 8816: uphy_SetRejectCauseInOtherClient4G: requestResponse %d retryPeriod %d
+Line 8829: uphy_GetRejectCauseInOtherClient4G: %d
+Line 8835: uphy_GetRetryPeriodForWakeUp: %d
+Line 8843: uphy_SetDutyCycle: %d
+Line 8843: uphy_SetDutyCycle: %d
+Line 8850: uphy_GetDutyCycle: %d
+Line 8850: uphy_GetDutyCycle: %d
+Line 8857: uphy_SetIsPSConnected: %d
+Line 8857: uphy_SetIsPSConnected: %d
+Line 8864: uphy_GetIsPSConnected: %d
+Line 8864: uphy_GetIsPSConnected: %d
+Line 8870: uphy_CUphyDsl1rcMessageInterface_SetPDNInfo: %d
+Line 8870: uphy_CUphyDsl1rcMessageInterface_SetPDNInfo: %d

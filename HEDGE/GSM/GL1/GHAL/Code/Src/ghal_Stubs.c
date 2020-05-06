@@ -1,0 +1,8 @@
+Line 63: >>> GHAL_Stub called L1AlNvramInitialise()
+Line 70: >>> GHAL_Stub called CfL1BgSystemInitialise()
+Line 77: >>> GHAL_Stub called CfL1BgSystemActive()
+Line 83: >>> GHAL_Stub called L1BgIdleInitialise()
+Line 88: >>> GHAL_Stub called L1TimersInitialise()
+Line 93: >>> GHAL_Stub called L1BgInitTcbAllocation()
+Line 98: >>> GHAL_Stub called L1FrInitTriggerControl()
+Line 109: >>> GHAL_Stub called L1FrNullInit()
